@@ -2,6 +2,15 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
+// Override Minima variables for a refined look
+$text-color:       #1e293b;
+$background-color: #f8fafc;
+$brand-color:      #1e40af;
+$grey-color:       #64748b;
+$grey-color-light: #f1f5f9;
+$grey-color-dark:  #334155;
+$content-width:    720px;
+
 @import "minima";
 
 // Dropdown navigation styles
@@ -68,5 +77,91 @@
     border: none;
     padding: 2px 0 2px 20px;
     margin: 2px 0 0 20px;
+  }
+}
+
+// Site logo in header
+.site-logo {
+  width: 36px;
+  height: 36px;
+  border-radius: 6px;
+  margin-right: 10px;
+  vertical-align: middle;
+  object-fit: cover;
+}
+
+.site-title {
+  display: inline-flex !important;
+  align-items: center;
+}
+
+// Hero section on homepage
+.hero {
+  text-align: center;
+  margin: 2rem 0 2.5rem;
+  padding: 1.5rem 0;
+
+  .hero-formula {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 4px;
+  }
+
+  @include media-query($on-palm) {
+    margin: 1rem 0 1.5rem;
+    padding: 1rem 0;
+
+    .hero-formula {
+      max-width: 90%;
+    }
+  }
+}
+
+// Refined link styling
+.page-content a {
+  color: $brand-color;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+// Homepage intro styling
+.home p {
+  line-height: 1.7;
+  margin-bottom: 1.25rem;
+}
+
+.founder-portrait {
+  max-width: 280px;
+  height: auto;
+  display: block;
+  margin: 0 0 1rem;
+  border-radius: 4px;
+}
+
+.research-formula {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 0 1.5rem;
+  border-radius: 4px;
+}
+
+.home p:last-of-type a {
+  display: inline-block;
+  margin-right: 1rem;
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+  background: $brand-color;
+  color: #fff !important;
+  border-radius: 4px;
+
+  &:hover {
+    background: $grey-color-dark;
+    text-decoration: none !important;
   }
 }
