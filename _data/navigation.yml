@@ -1,0 +1,21 @@
+# Top-level navigation with dropdowns
+# Research and Team are dropdowns; Blog is a direct link
+
+research:
+  - title: Overview
+    url: /research/
+  - title: Publications
+    url: /research/publications/
+  - title: Learn
+    url: /research/learn/
+
+team:
+  - title: About Us
+    url: /team/
+  - title: Community
+    url: /team/community/
+  - title: Opportunities
+    url: /team/opportunities/
+
+blog:
+  url: /blog/
