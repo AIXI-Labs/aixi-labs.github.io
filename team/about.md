@@ -18,7 +18,7 @@ permalink: /team/
 
 ## Research Staff
 
-*Researcher scientist and engineer profiles to be added.*
+*Research scientist and engineer profiles to be added.*
 
 ## Advisory Board
 
