@@ -6,7 +6,7 @@ permalink: /team/
 
 ## Our Values
 
-- **Rigour** — We prioritize high-quality, methodical research grounded in formal models, and embrace negative results that identifying flaws in safety proposals—our own and others'.
+- **Rigour** — We prioritize high-quality, methodical research grounded in formal models, and embrace negative results when they identify flaws in safety proposals, whether our own or others'.
 - **Transparency** — We share our work openly where possible, including failures and dead ends.
 - **Openness** — We remain open to exploring new ideas and abandoning or revisiting old ones.
 - **Collaboration** — We believe progress requires coordination across the field.
@@ -18,13 +18,12 @@ permalink: /team/
 
 ## Research Staff
 
-*Research scientist and engineer profiles to be added.*
+- **[Aram Ebtekar](https://arameb.com/) — Research Scientist**
 
 ## Advisory Board
 
-- **[Marcus Hutter](https://www.hutter1.net/) — Advisor (maybe Research Director)**
-- **[Aram Ebtekar](https://arameb.com/) — Advisor (backup Research Director)**
-- **[Michael K Cohen](https://www.michael-k-cohen.com/) — Advisor**
+- **[Marcus Hutter](https://www.hutter1.net/) — Advisor (possibly as Research Director)**
+- **[Michael K. Cohen](https://www.michael-k-cohen.com/) — Advisor**
 
 ## Legal Status
 

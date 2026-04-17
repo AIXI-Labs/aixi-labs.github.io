@@ -50,7 +50,7 @@ Computational Complexity (CC),
 Kolmogorov Complexity (KC),
 Minimum Description Length (MDL),
 Minimum Message Length (MML),
-Singular Learning Theory (SiLT)
+Singular Learning Theory (SiLT),
 Statistical Learning Theory (StaLT),
 Universal Levin Search (US).
 
@@ -62,7 +62,7 @@ Universal Levin Search (US).
 - [Kamaludin Dingle](https://www.dingleresearch.com/) — Gulf University for Science & Technology (KC, AP)
 - [David Dowe](https://users.monash.edu/~dld/) — Monash University (MML)
 - [Aram Ebtekar](https://arameb.com/) — UC Berkeley (AT, causality, AIXI, alignment)
-- [Tom Everitt](https://www.tomeveritt.se/) — Google DeepMind (Causality, alignment)
+- [Tom Everitt](https://www.tomeveritt.se/) — Google DeepMind (causality, alignment)
 - [Peter Gács](https://www.cs.bu.edu/faculty/gacs/) — Boston University (AIT, AT)
 - [Peter Grünwald](https://safestatistics.com/) — CWI & Leiden (MDL)
 - [Boumediene Hamzi](https://www.ma.imperial.ac.uk/~bhamzi/) — Imperial College London (AIT, AI)

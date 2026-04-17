@@ -8,16 +8,15 @@ Our research outputs include peer-reviewed papers, technical reports, and other 
 
 ## Papers
 
-*Publications will be listed here as they are released.*
+- **Golden Handcuffs make safer AI agents** — Aram Ebtekar, Michael K. Cohen (2026).  
+  [arXiv:2604.13609](https://arxiv.org/abs/2604.13609)
 
-## Technical Reports
+## Talks
 
-*Technical reports and preprints will be added as they become available.*
-
-## Resources
-
-*Links to datasets, tools, and other resources we publish will appear here.*
+- **ASI Safety via AIXI** — Marcus Hutter (2024).
+  [YouTube](https://www.youtube.com/watch?v=qHqv3GvWBTM)
 
 ---
+For broader educational resources, see our [learning page](/research/learn/).
 
-For citation inquiries or preprint requests, please [contact us](/team/community/).
+For collaboration inquiries, please [contact us](/team/community/).

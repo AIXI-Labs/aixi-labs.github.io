@@ -10,6 +10,8 @@ There are many ways to contribute to our mission of reducing existential risk fr
 
 As a non-profit research organization, we rely on philanthropic support to fund our research and operations.
 
+If you are considering support, please see [Research Overview](/research/) and [Publications](/research/publications/) for our public-facing overview and contributions so far.
+
 **Donation information to be added.** If you are interested in supporting us financially, please [contact us](/team/community/).
 
 ## Careers
