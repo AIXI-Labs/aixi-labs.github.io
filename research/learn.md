@@ -20,5 +20,6 @@ We hold regular online meetings on Solomonoff induction, AIXI, and related topic
 
 ## Key Resources
 
-- **[Introduction to Universal Artificial Intelligence](https://www.hutter1.net/ai/uaibook2.htm)** — Marcus Hutter's comprehensive introduction to Solomonoff induction, AIXI, and related theory.
-- **[InfoTheory](https://github.com/turtle261/infotheory)** — An algorithmic information theory library implementing approximations, estimators, and a comprehensive MC-AIXI agent platform (ROSA, CTW, RWKV backends).
+- **[Introduction to Universal Artificial Intelligence](https://www.hutter1.net/ai/uaibook2.htm)** - Marcus Hutter's comprehensive introduction to Solomonoff induction, AIXI, and related theory.
+- **[An Introduction to Kolmogorov Complexity and Its Applications](https://link.springer.com/book/10.1007/978-3-030-11298-1)** - The canonical reference on algorithmic information theory, currently studied in our [reading group](https://uaiasi.com/2026/04/30/reading-group-kolmogorov-complexity-and-its-applications/).
+- **[InfoTheory](https://github.com/turtle261/infotheory)** - An algorithmic information theory library implementing approximations, estimators, and a comprehensive MC-AIXI agent platform (ROSA, CTW, RWKV backends).

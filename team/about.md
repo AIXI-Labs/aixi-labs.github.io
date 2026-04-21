@@ -15,6 +15,7 @@ permalink: /team/
 ## Leadership
 
 - **[Cole Wyeth](https://colewyeth.com/) — Executive Director**
+- **[Marcus Hutter](https://www.hutter1.net/) — Research Director**
 
 ## Research Staff
 
@@ -22,8 +23,8 @@ permalink: /team/
 
 ## Advisory Board
 
-- **[Marcus Hutter](https://www.hutter1.net/) — Advisor (possibly as Research Director)**
 - **[Michael K. Cohen](https://www.michael-k-cohen.com/) — Advisor**
+- **[Stan van Wingerden](https://www.linkedin.com/in/wingerden/) — Advisor**
 
 ## Legal Status
 
