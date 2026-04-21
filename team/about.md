@@ -24,6 +24,7 @@ permalink: /team/
 
 - **[Marcus Hutter](https://www.hutter1.net/) — Advisor (possibly as Research Director)**
 - **[Michael K. Cohen](https://www.michael-k-cohen.com/) — Advisor**
+- **[Stan van Wingerden](https://www.linkedin.com/in/wingerden/) — Advisor**
 
 ## Legal Status
 
