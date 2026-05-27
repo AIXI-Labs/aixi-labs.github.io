@@ -45,42 +45,46 @@ Artificial Intelligence (AI),
 Algorithmic Information Theory (AIT),
 Algorithmic Probability (AP),
 Algorithmic Randomness (AR),
-Algorithmic Thermodynamics (AT),
 Computational Complexity (CC),
 Kolmogorov Complexity (KC),
 Minimum Description Length (MDL),
 Minimum Message Length (MML),
 Singular Learning Theory (SiLT),
 Statistical Learning Theory (StaLT),
+Statistical Mechanics (SM),
 Universal Levin Search (US).
 
 - [Laurent Bienvenu](https://www.labri.fr/perso/lbienvenu/) — CNRS / LaBRI, Bordeaux (AR, KC)
-- [Cristian Calude](https://calude.net/cristianscalude/about/) — University of Auckland (AR)
+- [Cristian Calude](https://calude.net/cristianscalude/about/) — University of Auckland (AR, KC)
 - [Gregory Chaitin](https://www.aips.be/en/gregory-chaitin/) — IBM Research (AR, AI)
 - [Michael K. Cohen](https://www.michael-k-cohen.com/) — UC Berkeley (AP, AIXI, alignment)
 - [Rod Downey](https://homepages.ecs.vuw.ac.nz/~downey/) — Victoria University of Wellington (AR)
 - [Kamaludin Dingle](https://www.dingleresearch.com/) — Gulf University for Science & Technology (KC, AP)
 - [David Dowe](https://users.monash.edu/~dld/) — Monash University (MML)
-- [Aram Ebtekar](https://arameb.com/) — UC Berkeley (AT, causality, AIXI, alignment)
-- [Tom Everitt](https://www.tomeveritt.se/) — Google DeepMind (causality, alignment)
-- [Peter Gács](https://www.cs.bu.edu/faculty/gacs/) — Boston University (AIT, AT)
+- [Aram Ebtekar](https://arameb.com/) — UC Berkeley (SM, causality, AIXI, alignment)
+- [Tom Everitt](https://www.tomeveritt.se/) — Google DeepMind (AIXI, causality, alignment)
+- [Peter Gács](https://www.cs.bu.edu/faculty/gacs/) — Boston University (AIT, SM)
 - [Peter Grünwald](https://safestatistics.com/) — CWI & Leiden (MDL)
 - [Boumediene Hamzi](https://www.ma.imperial.ac.uk/~bhamzi/) — Imperial College London (AIT, AI)
-- [Marcus Hutter](https://www.hutter1.net/) — Google DeepMind (Inventor of AIXI)
+- [Marcus Hutter](https://www.hutter1.net/) — Google DeepMind (Inventor of AIXI; AIT, AP, US, AI)
 - [Tor Lattimore](https://tor-lattimore.com/) — Google DeepMind (AIT, AP, AI)
-- [Leonid Levin](https://www.cs.bu.edu/faculty/lnd/) — Boston University (AIT)
-- [Ming Li](https://cs.uwaterloo.ca/~mli/) — University of Waterloo (AIT)
+- [Leonid Levin](https://www.cs.bu.edu/faculty/lnd/) — Boston University (US, AIT)
+- [Ming Li](https://cs.uwaterloo.ca/~mli/) — University of Waterloo (AIT, KC)
 - [Daniel Murfet](https://therisingsea.org/) — Timaeus (SiLT, MDL)
+- [Laurent Orseau](https://laurent-orseau.com/) — Google DeepMind (AIT, AP, US, AIXI, alignment)
+- [Pedro A. Ortega](https://www.adaptiveagents.org/) — Daios AI (SM, causality, alignment)
 - [Jürgen Schmidhuber](https://www.idsia.ch/~juergen/) — IDSIA, Lugano (US, AIT, AI)
 - [Alexander Shen](https://www.lirmm.fr/~ashen/) — CNRS / LIRMM, Montpellier (KC, AIT)
 - [Ray Solomonoff](https://raysolomonoff.com/) (1926–2009) — Founding father of algorithmic probability (AP, AI)
-- [Tom Sterkenberg](https://tomster.userweb.mwn.de/) — LMU Munich (AR, AI, AIXI, philosophy)
 - [Nathan Srebro](https://nati.ttic.edu/) — TTI Chicago (StaLT, MDL, AI)
-- [Paul M. B. Vitanyi](https://www.cwi.nl/~paulv/) — CWI Amsterdam (KC, AI)
+- [Tom Sterkenberg](https://tomster.userweb.mwn.de/) — LMU Munich (AR, AI, AIXI, philosophy)
+- [Danica J. Sutherland](https://djsutherland.ml/) — UBC (StaLT, AI)
+- [Paul M. B. Vitanyi](https://www.cwi.nl/~paulv/) — CWI Amsterdam (AIT, KC)
 - [Volodya Vovk](https://www.vovk.net/) — Royal Holloway University, London (KC, AI)
-- [Andrew Gordon Wilson](https://cims.nyu.edu/~andrewgw/) — New York University (AI)
+- [Andrew Gordon Wilson](https://cims.nyu.edu/~andrewgw/) — New York University (StaLT, AI)
 - [Cole Wyeth](https://colewyeth.com/) — University of Waterloo (AP, AIXI, alignment)
 - [Francesca Zaffora Blando](https://francescazafforablando.com/) — Carnegie Mellon University (AR, philosophy)
+- [Hector Zenil](https://www.hectorzenil.com/) — King's College London (KC, AIT, AP, causality)
 
 ## Location
 

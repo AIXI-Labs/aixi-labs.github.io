@@ -12,14 +12,11 @@ permalink: /team/
 - **Collaboration** — We believe progress requires coordination across the field.
 - **Impact** — We focus on research that meaningfully reduces risk. To develop results that are robust instead of superficial, we value foundational work whose payoffs may not be immediate.
 
-## Leadership
+## Core Team
 
-- **[Cole Wyeth](https://colewyeth.com/) — Executive Director**
+- **[Cole Wyeth](https://colewyeth.com/) — Founder & Executive Director**
 - **[Marcus Hutter](https://www.hutter1.net/) — Research Director**
-
-## Research Staff
-
-- **[Aram Ebtekar](https://arameb.com/) — Research Scientist**
+- **[Aram Ebtekar](https://arameb.com/) — Founding Research Scientist**
 
 ## Advisory Board
 
