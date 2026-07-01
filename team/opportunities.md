@@ -10,6 +10,13 @@ There are many ways to contribute to our mission of reducing existential risk fr
 
 We are building a team of exceptional researchers and staff.
 
+{% assign open_jobs = site.jobs | sort: "title" %}
+{% for job in open_jobs %}
+**[{{ job.title }}]({{ job.url | relative_url }})** — {{ job.job.location_display }} · {{ job.job.salary_display }}/year
+{% endfor %}
+
+### Fellowships
+
 **[AIXI Labs fellowship](https://uaiasi.com/2026/04/29/apply-for-a-fellowship-with-aixi-labs/)** - We expect to take some fellows among members of our [online reading groups](/research/learn/), though this is not a requirement.
 
 **[Principles of Intelligence fellowship](https://princint.ai/programs/fellowship/)** - We collaborate with this program to mentor interdisciplinary researchers transitioning into AI safety.

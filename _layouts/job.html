@@ -1,0 +1,80 @@
+---
+layout: page
+---
+{%- comment -%}
+  ============================================================
+  JOB POSTING LAYOUT — shared by every file in _jobs/.
+  The page body ({{ content }}) is the SINGLE SOURCE OF TRUTH
+  for the job description: it is rendered once for humans below,
+  and the SAME variable is jsonify-encoded into the Google for
+  Jobs JSON-LD, so the two can never drift.
+  Numbers/dates/location live in each job's `job:` front matter
+  (used raw in JSON-LD, formatted for the visible page) so they
+  are edited in exactly one place per role.
+  ============================================================
+{%- endcomment -%}
+
+<!-- ============================================================
+     VISIBLE PAGE
+     ============================================================ -->
+<div class="job-posting">
+  <p class="job-meta">
+    <strong>{{ page.job.location_display }}</strong> &middot;
+    <strong>{{ page.job.employment_type_display }}</strong> &middot;
+    <strong>{{ page.job.salary_display }}</strong> / year
+  </p>
+
+  {{ content }}
+
+  <p class="job-apply">
+    To apply, contact <a href="mailto:{{ page.job.apply_email }}">{{ page.job.apply_email }}</a>
+    with your CV and a note on what you'd want to work on here.
+  </p>
+</div>
+
+<!-- ============================================================
+     GOOGLE FOR JOBS STRUCTURED DATA
+     `description` is jsonify-encoded from {{ content }} above —
+     it is impossible for this to drift from the visible text,
+     because it is the same variable, not a re-typed copy.
+     ============================================================ -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "JobPosting",
+  "title": {{ page.title | jsonify }},
+  "description": {{ content | jsonify }},
+  "identifier": {
+    "@type": "PropertyValue",
+    "name": {{ site.title | jsonify }},
+    "value": {{ page.job.identifier | jsonify }}
+  },
+  "datePosted": "{{ page.job.date_posted | date: '%Y-%m-%d' }}",
+  "validThrough": "{{ page.job.valid_through | date: '%Y-%m-%d' }}T23:59:59Z",
+  "employmentType": {{ page.job.employment_type | jsonify }},
+  "hiringOrganization": {
+    "@type": "Organization",
+    "name": {{ site.title | jsonify }},
+    "sameAs": "https://www.aixi.uk/",
+    "logo": "https://www.aixi.uk/assets/img/aixicat.jpg"
+  },
+  "jobLocation": {
+    "@type": "Place",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": {{ page.job.location_locality | jsonify }},
+      "addressCountry": {{ page.job.location_country | jsonify }}
+    }
+  },
+  "baseSalary": {
+    "@type": "MonetaryAmount",
+    "currency": {{ page.job.salary_currency | jsonify }},
+    "value": {
+      "@type": "QuantitativeValue",
+      "minValue": {{ page.job.salary_min }},
+      "maxValue": {{ page.job.salary_max }},
+      "unitText": "YEAR"
+    }
+  }
+}
+</script>

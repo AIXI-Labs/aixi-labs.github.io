@@ -33,6 +33,14 @@ theme: minima
 plugins:
   - jekyll-feed
 
+# Job postings collection.
+# Each file in _jobs/ is one open role. The JobPosting JSON-LD boilerplate
+# lives once in _layouts/job.html; job files only supply front matter + body.
+collections:
+  jobs:
+    output: true
+    permalink: /team/opportunities/:name/
+
 # Navigation is defined in _data/navigation.yml (Research, Team dropdowns; Blog)
 
 # Show post excerpts on homepage and news
