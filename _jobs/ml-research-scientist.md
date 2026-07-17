@@ -8,7 +8,7 @@ job:
   identifier: "AIXI-MLRS-2026"
   employment_type: FULL_TIME
   employment_type_display: "Full-time"
-  location_display: "London, UK (strongly preferred)"
+  location_display: "London, UK or Berkeley, US (strongly preferred)"
   location_locality: "London"
   location_country: "GB"
   salary_min: 120000
@@ -27,7 +27,7 @@ You'd be joining a three-person core team — [Cole Wyeth](https://colewyeth.com
 ## Minimum qualifications
 
 - Proven ability to independently design, build, and run experiments with modern LLM-based agents — including instrumenting, debugging, and modifying agent behavior, not just calling existing APIs.
-- Solid grounding in probability, information theory, and formal mathematical reasoning, sufficient to engage seriously with AIXI-style theoretical models (Bayesian reinforcement learning, Kolmogorov complexity, Solomonoff induction). No prior expertise in algorithmic information theory is required — real comfort with dense math and motivation to learn it is.
+- Solid grounding in probability, information theory, and formal mathematical reasoning, sufficient to engage seriously with AIXI-style theoretical models (Bayesian reinforcement learning, Kolmogorov complexity, Solomonoff induction). No prior expertise in algorithmic information theory is required, but comfort with dense math and motivation to learn it is.
 - A track record of self-directed research or engineering work: evidence you can identify a worthwhile question and drive it to a concrete result with minimal oversight.
 - Willingness to work as one of a very small core team (currently three people), which means owning problems end-to-end, including infrastructure and "glue work" a larger team would delegate.
 
@@ -44,3 +44,5 @@ You'd be joining a three-person core team — [Cole Wyeth](https://colewyeth.com
 - Build and evaluate safety mitigations motivated by our theoretical work, and report honestly on where they hold up and where they don't.
 - Directly help shape the research agenda — with a team this size, your judgment about which experiments are worth running will materially affect what we work on.
 - Contribute to papers, blog posts, or other written output that communicates results to the broader AI safety and ML research communities.
+
+Apply here: https://docs.google.com/forms/d/e/1FAIpQLSdpKSZKcMUZCkMaBncmbDSSdVcHKodDmdALUTOOheGF_NMHuQ/viewform?usp=sharing&ouid=107340010027905745549
