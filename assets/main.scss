@@ -165,3 +165,27 @@ $content-width:    720px;
     text-decoration: none !important;
   }
 }
+
+// Job posting styling
+.job-meta {
+  color: $grey-color;
+  margin-bottom: 1.5rem;
+}
+
+.job-apply {
+  margin-top: 2rem;
+}
+
+.job-apply-button {
+  display: inline-block;
+  padding: 0.6rem 1.4rem;
+  background: $brand-color;
+  color: #fff !important;
+  border-radius: 4px;
+  font-weight: 600;
+
+  &:hover {
+    background: $grey-color-dark;
+    text-decoration: none !important;
+  }
+}

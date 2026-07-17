@@ -1,0 +1,1 @@
+[Cole Wyeth](https://colewyeth.com/) (Founder & Executive Director), [Marcus Hutter](https://www.hutter1.net/) (Research Director), and [Aram Ebtekar](https://arameb.com/) (Founding Research Scientist)

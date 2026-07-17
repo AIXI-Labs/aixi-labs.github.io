@@ -21,14 +21,13 @@ layout: page
   <p class="job-meta">
     <strong>{{ page.job.location_display }}</strong> &middot;
     <strong>{{ page.job.employment_type_display }}</strong> &middot;
-    <strong>{{ page.job.salary_display }}</strong> / year
+    <strong>{{ page.job.salary_display }}</strong> / {{ page.job.salary_period | default: 'year' }}
   </p>
 
   {{ content }}
 
   <p class="job-apply">
-    To apply, contact <a href="mailto:{{ page.job.apply_email }}">{{ page.job.apply_email }}</a>
-    with your CV and a note on what you'd want to work on here.
+    <a href="{{ page.job.apply_url }}" class="job-apply-button" target="_blank" rel="noopener">Apply now</a>
   </p>
 </div>
 
@@ -52,20 +51,15 @@ layout: page
   "datePosted": "{{ page.job.date_posted | date: '%Y-%m-%d' }}",
   "validThrough": "{{ page.job.valid_through | date: '%Y-%m-%d' }}T23:59:59Z",
   "employmentType": {{ page.job.employment_type | jsonify }},
-  "hiringOrganization": {
-    "@type": "Organization",
-    "name": {{ site.title | jsonify }},
-    "sameAs": "https://www.aixi.uk/",
-    "logo": "https://www.aixi.uk/assets/img/aixicat.jpg"
-  },
-  "jobLocation": {
-    "@type": "Place",
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": {{ page.job.location_locality | jsonify }},
-      "addressCountry": {{ page.job.location_country | jsonify }}
-    }
-  },
+  "directApply": false,
+{%- comment -%}
+  baseSalary is emitted only when the role gives a salary in a unit
+  Google for Jobs accepts (HOUR/DAY/WEEK/MONTH/YEAR). Roles whose pay
+  doesn't map to one of those (e.g. a per-quarter fellowship stipend)
+  omit `salary_unit`, so no misleading rate ends up in the structured
+  data — the visible page still shows the human-readable amount.
+{%- endcomment -%}
+{%- if page.job.salary_unit %}
   "baseSalary": {
     "@type": "MonetaryAmount",
     "currency": {{ page.job.salary_currency | jsonify }},
@@ -73,7 +67,25 @@ layout: page
       "@type": "QuantitativeValue",
       "minValue": {{ page.job.salary_min }},
       "maxValue": {{ page.job.salary_max }},
-      "unitText": "YEAR"
+      "unitText": {{ page.job.salary_unit | jsonify }}
+    }
+  },
+{%- endif %}
+  "hiringOrganization": {
+    "@type": "Organization",
+    "name": {{ site.title | jsonify }},
+    "sameAs": "https://www.aixi.uk/",
+    "logo": "https://www.aixi.uk/assets/img/aixicat.jpg"
+  },
+{%- if page.job.remote %}
+  "jobLocationType": "TELECOMMUTE",
+{%- endif %}
+  "jobLocation": {
+    "@type": "Place",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": {{ page.job.location_locality | jsonify }},
+      "addressCountry": {{ page.job.location_country | jsonify }}
     }
   }
 }

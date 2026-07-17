@@ -6,6 +6,7 @@ meta-description: "AIXI Labs is hiring a Machine Learning Research Scientist to 
 # --- Structured job fields ---
 job:
   identifier: "AIXI-MLRS-2026"
+  category: "role"
   employment_type: FULL_TIME
   employment_type_display: "Full-time"
   location_display: "London, UK or Berkeley, US (strongly preferred)"
@@ -15,14 +16,16 @@ job:
   salary_max: 160000
   salary_display: "£120,000 – £160,000"
   salary_currency: "GBP"
+  salary_period: "year"
+  salary_unit: "YEAR"
   date_posted: 2026-07-01
   valid_through: 2026-10-01
-  apply_email: "aebtekar@alumni.cmu.edu"
+  apply_url: "https://docs.google.com/forms/d/e/1FAIpQLSdpKSZKcMUZCkMaBncmbDSSdVcHKodDmdALUTOOheGF_NMHuQ/viewform"
 ---
 
-AIXI Labs is a small, London-based non-profit doing AI safety research grounded in algorithmic information theory. Most AI research today is either mathematically clean but narrow, or practical but too opaque for rigorous safety analysis. We target the third corner: methods **general** enough to describe powerful agents and **provable** enough to support real safety claims — using AIXI, the theoretical model of unbounded artificial superintelligence — then port the strongest of these ideas to modern LLM-based agents.
+{% include about-aixi-labs.md %}
 
-You'd be joining a three-person core team — [Cole Wyeth](https://colewyeth.com/) (Founder & Executive Director), [Marcus Hutter](https://www.hutter1.net/) (Research Director), and [Aram Ebtekar](https://arameb.com/) (Founding Research Scientist) — at an early stage. We are not an established engineering org, so you'd help build our empirical research capability essentially from scratch.
+You'd be joining a three-person core team — {% include team-roster.md %} — at an early stage. We are not an established engineering org, so you'd help build our empirical research capability essentially from scratch.
 
 ## Minimum qualifications
 
@@ -44,5 +47,3 @@ You'd be joining a three-person core team — [Cole Wyeth](https://colewyeth.com
 - Build and evaluate safety mitigations motivated by our theoretical work, and report honestly on where they hold up and where they don't.
 - Directly help shape the research agenda — with a team this size, your judgment about which experiments are worth running will materially affect what we work on.
 - Contribute to papers, blog posts, or other written output that communicates results to the broader AI safety and ML research communities.
-
-Apply here: https://docs.google.com/forms/d/e/1FAIpQLSdpKSZKcMUZCkMaBncmbDSSdVcHKodDmdALUTOOheGF_NMHuQ/viewform?usp=sharing&ouid=107340010027905745549
