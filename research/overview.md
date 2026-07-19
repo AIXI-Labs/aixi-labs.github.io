@@ -10,11 +10,11 @@ permalink: /research/
 
 ## Why this approach
 
-Most AI research today sits in one of two categories: methods that are fast and mathematically clean in narrow settings, and methods that are practical for frontier applications but opaque to safety analysis. Our core niche is the third corner: methods that are **general** enough for powerful agents and **provable** enough to support rigorous safety claims. Aligning a hypothetical superintelligence requires a focused effort on the latter.
+Most AI research today sits in one of two categories: methods that are fast and mathematically clean in narrow settings, and methods that are practical for frontier applications but opaque to safety analysis. Our core focus is the third intersection: methods that are **general** enough to describe powerful agents and mathematically **formalizable** to support rigorous safety claims. Aligning a hypothetical superintelligence requires a concerted effort in this historically neglected direction.
 
 <img src="{{ '/assets/img/aixi_venn_diagram_v4.svg' | relative_url }}" alt="Venn diagram showing Fast, General, and Provable, with AIXI at the General+Provable overlap" />
 
-This framing guides how we choose projects: prioritize ideas that survive formal analysis in broad environments, then port the strongest ones to modern LLM-based agents.
+Thus, we formally examine behaviors, capabilities, risks and mitigations for idealized agents in fully general environments. We aim to port the most promising methods to modern LLM-based agents, and test principled hypotheses on these agents. Since our analyses are based on a very general model of superintelligence, we gain confidence that any experimentally validated conclusions will generalize and scale to future AI systems.
 
 ## Basic Science
 
