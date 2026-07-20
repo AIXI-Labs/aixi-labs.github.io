@@ -1,28 +1,31 @@
-<svg width="100%" viewBox="0 0 680 540" role="img" xmlns="http://www.w3.org/2000/svg">
-<title style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">Venn diagram positioning AIXI at the intersection of generality and provability</title>
-<desc style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">Three overlapping circles represent three desirable properties of reinforcement learning methods: Fast (computationally tractable), General (arbitrary environments), and Provable (amenable to analysis). Frontier AI occupies the Fast and General overlap. Textbook RL occupies the Fast and Provable overlap. AIXI occupies the General and Provable overlap, marked as the research focus. The triple intersection at the center is empty, marked with a question mark.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 540" width="680" height="540" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+  <style>
+    .th { font-size: 14px; font-weight: 500; fill: #1a1a1a; }
+    .ts { font-size: 12px; font-weight: 400; fill: #6a6a6a; }
+    .q  { font-size: 20px; font-weight: 500; fill: #1a1a1a; }
+  </style>
 
-<circle cx="340" cy="210" r="140" fill="#1D9E75" fill-opacity="0.22" stroke="#0F6E56" stroke-width="1.5" style="fill:rgb(29, 158, 117);stroke:rgb(15, 110, 86);color:rgb(0, 0, 0);stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-<circle cx="250" cy="370" r="140" fill="#D85A30" fill-opacity="0.22" stroke="#993C1D" stroke-width="1.5" style="fill:rgb(216, 90, 48);stroke:rgb(153, 60, 29);color:rgb(0, 0, 0);stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-<circle cx="430" cy="370" r="140" fill="#7F77DD" fill-opacity="0.22" stroke="#534AB7" stroke-width="1.5" style="fill:rgb(127, 119, 221);stroke:rgb(83, 74, 183);color:rgb(0, 0, 0);stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <circle cx="340" cy="210" r="140" fill="#1D9E75" fill-opacity="0.22" stroke="#0F6E56" stroke-width="1.5"/>
+  <circle cx="250" cy="370" r="140" fill="#D85A30" fill-opacity="0.22" stroke="#993C1D" stroke-width="1.5"/>
+  <circle cx="430" cy="370" r="140" fill="#7F77DD" fill-opacity="0.22" stroke="#534AB7" stroke-width="1.5"/>
 
-<text x="340" y="115" text-anchor="middle" style="fill:rgb(20, 20, 19);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:14px;font-weight:500;text-anchor:middle;dominant-baseline:auto">Fast</text>
-<text x="340" y="132" text-anchor="middle" style="fill:rgb(61, 61, 58);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:auto">computationally tractable</text>
+  <text class="th" x="340" y="115" text-anchor="middle">Fast</text>
+  <text class="ts" x="340" y="132" text-anchor="middle">computationally tractable</text>
 
-<text x="213" y="425" text-anchor="middle" style="fill:rgb(20, 20, 19);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:14px;font-weight:500;text-anchor:middle;dominant-baseline:auto">General</text>
-<text x="213" y="442" text-anchor="middle" style="fill:rgb(61, 61, 58);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:auto">arbitrary environments</text>
+  <text class="th" x="213" y="425" text-anchor="middle">General</text>
+  <text class="ts" x="213" y="442" text-anchor="middle">arbitrary environments</text>
 
-<text x="467" y="425" text-anchor="middle" style="fill:rgb(20, 20, 19);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:14px;font-weight:500;text-anchor:middle;dominant-baseline:auto">Provable</text>
-<text x="467" y="442" text-anchor="middle" style="fill:rgb(61, 61, 58);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:auto">amenable to analysis</text>
+  <text class="th" x="467" y="425" text-anchor="middle">Analyzable</text>
+  <text class="ts" x="467" y="442" text-anchor="middle">provable guarantees</text>
 
-<text x="265" y="255" text-anchor="middle" style="fill:rgb(20, 20, 19);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:14px;font-weight:500;text-anchor:middle;dominant-baseline:auto">Frontier AI</text>
-<text x="265" y="272" text-anchor="middle" style="fill:rgb(61, 61, 58);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:auto">real systems</text>
+  <text class="th" x="265" y="255" text-anchor="middle">Frontier AI</text>
+  <text class="ts" x="265" y="272" text-anchor="middle">real systems</text>
 
-<text x="415" y="255" text-anchor="middle" style="fill:rgb(20, 20, 19);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:14px;font-weight:500;text-anchor:middle;dominant-baseline:auto">Textbook RL</text>
-<text x="415" y="272" text-anchor="middle" style="fill:rgb(61, 61, 58);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:auto">bandits, MDPs</text>
+  <text class="th" x="415" y="255" text-anchor="middle">Textbook RL</text>
+  <text class="ts" x="415" y="272" text-anchor="middle">bandits, MDPs</text>
 
-<text x="340" y="320" text-anchor="middle" opacity="0.45" style="fill:rgb(20, 20, 19);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.45;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:14px;font-weight:500;text-anchor:middle;dominant-baseline:auto">?</text>
+  <text class="q" x="340" y="320" text-anchor="middle" opacity="0.45">?</text>
 
-<text x="340" y="385" text-anchor="middle" style="fill:rgb(20, 20, 19);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:14px;font-weight:500;text-anchor:middle;dominant-baseline:auto">AIXI</text>
-<text x="340" y="402" text-anchor="middle" style="fill:rgb(61, 61, 58);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:auto">our focus</text>
+  <text class="th" x="340" y="385" text-anchor="middle">AIXI</text>
+  <text class="ts" x="340" y="402" text-anchor="middle">our focus</text>
 </svg>
