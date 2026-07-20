@@ -15,7 +15,7 @@ permalink: /team/
 ## Core Team
 
 - **[Cole Wyeth](https://colewyeth.com/) — Founder & Executive Director**
-- **[Marcus Hutter](https://www.hutter1.net/) — Research Director**
+- **[Marcus Hutter](https://www.hutter1.net/) — Research Director (joint appointment with DeepMind)**
 - **[Aram Ebtekar](https://arameb.com/) — Founding Research Scientist**
 
 ## Advisory Board

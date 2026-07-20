@@ -9,7 +9,7 @@ job:
   category: "role"
   employment_type: FULL_TIME
   employment_type_display: "Full-time"
-  location_display: "London, UK or Berkeley, US (strongly preferred)"
+  location_display: "London, UK or Berkeley, US (preferred)"
   location_locality: "London"
   location_country: "GB"
   salary_min: 120000
@@ -29,16 +29,18 @@ You'd be joining a three-person core team — {% include team-roster.md %} — a
 
 ## Minimum qualifications
 
-- Proven ability to independently design, build, and run experiments with modern LLM-based agents — including instrumenting, debugging, and modifying agent behavior, not just calling existing APIs.
-- Solid grounding in probability, information theory, and formal mathematical reasoning, sufficient to engage seriously with AIXI-style theoretical models (Bayesian reinforcement learning, Kolmogorov complexity, Solomonoff induction). No prior expertise in algorithmic information theory is required, but comfort with dense math and motivation to learn it is.
-- A track record of self-directed research or engineering work: evidence you can identify a worthwhile question and drive it to a concrete result with minimal oversight.
+- Mathematical background sufficient to rapidly upskill on algorithmic information theory, AIXI, Bayesian statistics, and reinforcement learning theory (existing expertise on these topics not required).
+- Proven ability to independently design, build, and run experiments with modern LLM-based agents.
+- Ability to identify a worthwhile question, and drive it to a concrete result with minimal oversight.
+- Strong verbal and written communication skills.
 - Willingness to work as one of a very small core team (currently three people), which means owning problems end-to-end, including infrastructure and "glue work" a larger team would delegate.
 
 ## Preferred qualifications
 
+- PhD in computer science, physics, or a related field.
+- Publications at top ML/AI/theory venues (e.g. NeurIPS, ICML, ICLR, ALT, COLT), though we value the strength of your best work over volume.
 - Experience designing empirical tests for safety-relevant agent behaviors: deception, specification gaming, power-seeking, goal misgeneralization, or similar.
-- Publications at top ML/AI/theory venues (e.g. NeurIPS, ICML, ICLR, ALT, COLT), though we weight the strength of your best work over volume.
-- Background in algorithmic information theory, computability theory, or related theoretical computer science.
+- Background in algorithmic information theory, computability theory, learning theory, or related theoretical computer science.
 - Experience fine-tuning, evaluating, or red-teaming LLM-based and/or RL agents.
 
 ## Responsibilities
