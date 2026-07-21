@@ -9,7 +9,7 @@ job:
   category: "role"
   employment_type: FULL_TIME
   employment_type_display: "Full-time"
-  location_display: "London, UK or Berkeley, US (preferred)"
+  location_display: "London, UK or Berkeley, US"
   location_locality: "London"
   location_country: "GB"
   salary_min: 120000
