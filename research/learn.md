@@ -16,7 +16,9 @@ Resources for learning about AIXI, Solomonoff induction, and related topics.
 
 We hold regular online meetings on Solomonoff induction, AIXI, and related topics. Open to the public.
 
-**[uaiasi.com](https://uaiasi.com/)** — Join our community hub for Universal Algorithmic Intelligence. Reach out for meeting links.
+**[uaiasi.com](https://uaiasi.com/)** — Join our community hub for Universal Algorithmic Intelligence. See the calendar for meeting times and links.
+
+**[AIXI Discord](https://discord.gg/VJ6AjWnCz)** - A more interactive way to join our community and discuss research interests.
 
 ## Key Resources
 

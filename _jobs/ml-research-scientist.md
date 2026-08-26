@@ -19,7 +19,7 @@ job:
   salary_period: "year"
   salary_unit: "YEAR"
   date_posted: 2026-07-01
-  valid_through: 2026-10-01
+  valid_through: 2026-12-01
   apply_url: "https://docs.google.com/forms/d/e/1FAIpQLSdpKSZKcMUZCkMaBncmbDSSdVcHKodDmdALUTOOheGF_NMHuQ/viewform"
 ---
 
