@@ -23,7 +23,7 @@ If your organization is interested in a research partnership, please [reach out]
 
 ## Support Our Work
 
-As a non-profit research organization, we rely on philanthropic support to fund our research and operations.
+As a non-profit research organization, we rely on philanthropic support to fund our research and operations. AIXI Labs is a fiscally sponsored project of [Principles of Intelligence](https://princint.ai/), a 501(c)(3) nonprofit corporation (EIN 33-4129337), so gifts are made to Principles of Intelligence on our behalf and are tax-deductible in the United States to the extent permitted by law.
 
 If you are considering support, please see [Research Overview](/research/) and [Publications](/research/publications/) for our public-facing overview and contributions so far.
 

@@ -15,7 +15,7 @@ permalink: /team/
 ## Core Team
 
 - **[Cole Wyeth](https://colewyeth.com/) — Founder & Executive Director**
-- **[Marcus Hutter](https://www.hutter1.net/) — Research Director (joint appointment with DeepMind)**
+- **[Marcus Hutter](https://www.hutter1.net/) — Research Director (part-time; joint appointment with DeepMind)**
 - **[Aram Ebtekar](https://arameb.com/) — Founding Research Scientist**
 
 ## Advisory Board
@@ -26,4 +26,4 @@ permalink: /team/
 
 ## Legal Status
 
-*Legal structure and tax-exempt status details to be added.*
+AIXI Labs is a fiscally sponsored project of [Principles of Intelligence](https://princint.ai/), a 501(c)(3) nonprofit corporation incorporated in Minnesota, USA (EIN 33-4129337). Donations to AIXI Labs are received by Principles of Intelligence on our behalf, and are tax-deductible in the United States to the extent permitted by law.
