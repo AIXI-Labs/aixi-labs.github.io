@@ -17,6 +17,7 @@ permalink: /team/
 - **[Cole Wyeth](https://colewyeth.com/) — Founder & Executive Director**
 - **[Marcus Hutter](https://www.hutter1.net/) — Research Director (part-time)**
 - **[Aram Ebtekar](https://arameb.com/) — Founding Research Scientist**
+- **[Elena Kayayan](https://www.linkedin.com/in/elena-kayayan/) - Business Operations Manager**
 
 ## Advisory Board
 
