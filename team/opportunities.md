@@ -4,7 +4,7 @@ title: Opportunities
 permalink: /team/opportunities/
 ---
 
-There are many ways to contribute to our mission of reducing existential risk from artificial intelligence.
+There are many ways to contribute to our mission of reducing existential risk via understanding intelligence from first principles. For most people, the best way to get involved will be via the educational resources and reading group on our [Learn page](/research/learn/). Many of our research fellows began as regular contributors to the reading group.
 
 ## Open roles
 

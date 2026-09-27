@@ -18,7 +18,7 @@ We hold regular online meetings on Solomonoff induction, AIXI, and related topic
 
 **[uaiasi.com](https://uaiasi.com/)** — Join our community hub for Universal Algorithmic Intelligence. See the calendar for meeting times and links.
 
-**[AIXI Discord](https://discord.gg/VJ6AjWnCz)** - A more interactive way to join our community and discuss research interests.
+**[AIXI Discord](https://discord.gg/Ex2UUK87jg)** - A more interactive way to join our community and discuss research interests.
 
 ## Key Resources
 

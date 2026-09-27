@@ -6,15 +6,27 @@ permalink: /team/community/
 
 We welcome inquiries from researchers, potential collaborators, supporters, and anyone interested in our work.
 
+## Join Our Reading Group
+
+We hold regular online meetings on Solomonoff induction, AIXI, and related topics. Open to the public.
+
+**[uaiasi.com](https://uaiasi.com/)** — Join our community hub for Universal Algorithmic Intelligence. See the calendar for meeting times and links.
+
+**[AIXI Discord](https://discord.gg/Ex2UUK87jg)** - A more interactive way to join our community and discuss research interests.
+
 ## General Inquiries
 
 **Email:** [{{ site.email }}](mailto:{{ site.email }})
 
 Please allow a few days for us to respond. For time-sensitive matters, please indicate so in your subject line.
 
+<!-- - Subscribe to our [RSS feed](/feed.xml) for research updates and announcements -->
+
+Follow us on [GitHub](https://github.com/{{ site.github_username }}) for open-source work.
+
 ## Areas of Contact
 
-- **Research Collaboration** — We are interested in collaborations with academic and industry researchers working on AI safety and related topics.
+- **Research Collaboration** — We are interested in collaborations with academic and industry researchers working on AI safety and related topics. We can also give invited talks.
 
 - **Media & Press** — For press inquiries, please use the email above and include "Press" in the subject line.
 
@@ -24,20 +36,7 @@ Please allow a few days for us to respond. For time-sensitive matters, please in
 
 ## Events
 
-We are hoping to launch a research symposium or conference soon, similar to the one in [2025](https://sites.google.com/site/boumedienehamzi/second-symposium-on-algorithmic-information-theory-and-machine-learning).
-
-## Join Our Reading Group
-
-We hold regular online meetings on Solomonoff induction, AIXI, and related topics. Open to the public.
-
-**[uaiasi.com](https://uaiasi.com/)** — Join our community hub for Universal Algorithmic Intelligence. See the calendar for meeting times and links.
-
-**[AIXI Discord](https://discord.gg/VJ6AjWnCz)** - A more interactive way to join our community and discuss research interests.
-
-## Stay Connected
-
-- Subscribe to our [RSS feed](/feed.xml) for research updates and announcements
-- Follow us on [GitHub](https://github.com/{{ site.github_username }}) for open-source work
+We recently co-hosted a [research symposium](https://sites.google.com/site/boumedienehamzi/third-symposium-on-machine-learning-and-algorithmic-information-theory), and frequently present at conferences.
 
 ## People in Algorithmic Information Theory
 
