@@ -189,3 +189,29 @@ $content-width:    720px;
     text-decoration: none !important;
   }
 }
+
+// Footer: title, description, contact links stacked
+.site-footer {
+  .footer-heading {
+    color: #000;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+
+  .footer-description {
+    color: $grey-color;
+    margin-bottom: 0.5rem;
+  }
+
+  .footer-contact {
+    list-style: none;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 1.5rem;
+
+    a {
+      color: $brand-color;
+    }
+  }
+}
