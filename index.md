@@ -1,9 +1,15 @@
 ---
 layout: home
 title: Home
+hero:
+  eyebrow: AI X-Risk Institute
+  text: >-
+    AIXI Labs models AI risk factors and safety mitigations for artificial
+    superintelligence. We focus on AIXI variants, and develop the means to
+    translate our theoretical findings to real AI agents.
+  buttons:
+    - label: Our team
+      url: /team/
+    - label: Our research
+      url: /research/
 ---
-
-**AIXI Labs** models AI risk factors and safety mitigations in terms of **AIXI** variants, and develops the means to translate them to real AI agents. AIXI is the leading mathematical model of artificial superintelligence—the maximum theoretical limit of AI capabilities. This enables rigorous testing of both the risk factors and the safety mitigations.
-
-[Learn about our team →](/team/)  
-[Explore our research →](/research/)

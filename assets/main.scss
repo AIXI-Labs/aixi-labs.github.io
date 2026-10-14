@@ -2,6 +2,9 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
+// Fonts for the homepage hero
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=IBM+Plex+Sans:wght@400;600&family=Source+Serif+4:opsz@8..60&display=swap");
+
 // Override Minima variables for a refined look
 $text-color:       #1e293b;
 $background-color: #f8fafc;
@@ -95,26 +98,103 @@ $content-width:    720px;
   align-items: center;
 }
 
-// Hero section on homepage
+// Hero section on homepage: full-bleed grey gradient, title left, intro right
+.page-content {
+  overflow-x: clip; // 100vw hero would otherwise add a scrollbar-width overflow
+}
+
 .hero {
-  text-align: center;
-  margin: 2rem 0 2.5rem;
-  padding: 1.5rem 0;
+  // Break out of the 720px content wrapper and sit flush under the header
+  width: 100vw;
+  margin: (-$spacing-unit) 0 0 calc(50% - 50vw);
+  background: linear-gradient(180deg, #737777 0%, #b4b8b9 45%, #e2e4e4 80%, $background-color 100%);
+  font-family: "IBM Plex Sans", $base-font-family;
+
+  // Width and side padding come from Minima's .wrapper; only set vertical spacing here.
+  // Single column: eyebrow + title, formula, then text and buttons, all full width.
+  .hero-inner {
+    padding-top: 72px;
+    padding-bottom: 84px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
 
   .hero-formula {
-    max-width: 100%;
-    height: auto;
     display: block;
-    margin: 0 auto;
-    border-radius: 4px;
+    width: 100%;
+    height: auto;
+  }
+
+  .hero-eyebrow {
+    margin: 0 0 0.5rem;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 12px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #44504f;
+  }
+
+  .hero-title {
+    margin: 0;
+    font-family: "Source Serif 4", Georgia, serif;
+    font-variation-settings: "opsz" 30; // sturdier strokes than the 60pt display cut
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 1;
+    letter-spacing: -0.035em;
+    color: #15181b;
+  }
+
+  .hero-text {
+    margin: 0 0 28px;
+    font-size: 15px;
+    line-height: 1.65;
+    color: #2b2f33;
+  }
+
+  .hero-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  // .page-content prefix beats the site-wide link styles
+  .page-content & .hero-button {
+    display: inline-block;
+    padding: 11px 18px;
+    border: 1px solid #2b2f33;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 1.4;
+    color: #15181b;
+    text-decoration: none;
+
+    &:hover {
+      background: rgba(21, 24, 27, 0.06);
+      text-decoration: none;
+    }
+  }
+
+  .page-content & .hero-button-primary {
+    border-color: #15181b;
+    background: #15181b;
+    color: #fff;
+
+    &:hover {
+      background: #2b2f33;
+    }
   }
 
   @include media-query($on-palm) {
-    margin: 1rem 0 1.5rem;
-    padding: 1rem 0;
+    .hero-inner {
+      padding-top: 48px;
+      padding-bottom: 56px;
+      gap: 24px;
+    }
 
-    .hero-formula {
-      max-width: 90%;
+    .hero-title {
+      font-size: 52px;
     }
   }
 }

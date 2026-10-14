@@ -3,7 +3,22 @@ layout: default
 ---
 
 <section class="hero">
-  <img src="{{ '/assets/img/aixi_formula.png' | relative_url }}" alt="AIXI formula" class="hero-formula" />
+  <!-- Minima's .wrapper keeps the hero on the same edges as the header and footer -->
+  <div class="wrapper hero-inner">
+    <div class="hero-heading">
+      <p class="hero-eyebrow">{{ page.hero.eyebrow | escape }}</p>
+      <h1 class="hero-title">{{ site.title | escape }}</h1>
+    </div>
+    <img class="hero-formula" src="{{ '/assets/img/aixi_formula_mono.png' | relative_url }}" alt="AIXI formula" />
+    <div class="hero-body">
+      <p class="hero-text">{{ page.hero.text | escape }}</p>
+      <div class="hero-actions">
+        {%- for button in page.hero.buttons -%}
+          <a class="hero-button{% if forloop.first %} hero-button-primary{% endif %}" href="{{ button.url | relative_url }}">{{ button.label | escape }}</a>
+        {%- endfor -%}
+      </div>
+    </div>
+  </div>
 </section>
 
 {{ content }}
