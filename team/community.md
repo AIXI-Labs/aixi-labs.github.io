@@ -81,7 +81,7 @@ Universal Levin Search (US).
 - [Nathan Srebro](https://nati.ttic.edu/) — TTI Chicago (StaLT, MDL, AI)
 - [Tom Sterkenberg](https://tomster.userweb.mwn.de/) — LMU Munich (AR, AI, AIXI, philosophy)
 - [Danica J. Sutherland](https://djsutherland.ml/) — UBC (StaLT, AI)
-- [Nikolay Vereshchagin](https://logic.math.msu.ru/nkv/) — Moscow State University & HSE (KC, AR, CC)
+- [Nikolay K. Vereshchagin](https://logic.math.msu.ru/nkv/) — Moscow State University & Higher School of Economics (KC, AR, CC)
 - [Paul M. B. Vitanyi](https://www.cwi.nl/~paulv/) — CWI Amsterdam (AIT, KC)
 - [Volodya Vovk](https://www.vovk.net/) — Royal Holloway University, London (KC, AI)
 - [Andrew Gordon Wilson](https://cims.nyu.edu/~andrewgw/) — New York University (StaLT, AI)
