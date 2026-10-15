@@ -74,6 +74,7 @@ Universal Levin Search (US).
 - [Daniel Murfet](https://therisingsea.org/) — Timaeus (SiLT, MDL)
 - [Laurent Orseau](https://laurent-orseau.com/) — Google DeepMind (AIT, AP, US, AIXI, alignment)
 - [Pedro A. Ortega](https://www.adaptiveagents.org/) — Daios AI (SM, causality, alignment)
+- [Steve Petersen](https://stevepetersen.net/) — Niagara University (AIT, AI, alignment, philosophy)
 - [Jürgen Schmidhuber](https://www.idsia.ch/~juergen/) — IDSIA, Lugano (US, AIT, AI)
 - [Alexander Shen](https://www.lirmm.fr/~ashen/) — CNRS / LIRMM, Montpellier (KC, AIT)
 - [Ray Solomonoff](https://raysolomonoff.com/) (1926–2009) — Founding father of algorithmic probability (AP, AI)
