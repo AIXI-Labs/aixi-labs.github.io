@@ -35,7 +35,10 @@ Our research outputs include peer-reviewed papers, technical reports, and other 
   <p class="pub-entry-excerpt">AIXI Labs researchers contributed to a <a href="https://arxiv.org/abs/2606.12683">Google DeepMind report</a> on the future of machine intelligence.</p>
 </div>
 
----
-For broader educational resources, see our [learning page](/research/learn/).
+<hr class="section-sep" />
 
-For collaboration inquiries, please [contact us](/team/community/).
+{% include link-buttons.html
+   left_text="For broader educational resources, see"
+   left_label="Learning & Community" left_url="/team/community/"
+   right_text="For collaboration inquiries, please"
+   right_label="Contact us" right_url="/contact/" %}

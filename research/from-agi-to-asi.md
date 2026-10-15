@@ -12,6 +12,7 @@ breadcrumb:
   - title: Other
     url: /research/publications/#other
 date: 2026-06-14 10:42:00 -0700
+show_date: true
 permalink: /research/2026/06/14/from-agi-to-asi.html
 ---
 

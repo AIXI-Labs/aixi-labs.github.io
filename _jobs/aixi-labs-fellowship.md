@@ -40,7 +40,7 @@ Our fellowship is a quarterly, rolling program for researchers who want to work 
 - Publications at top ML/AI/theory venues (e.g. NeurIPS, ICML, ICLR, ALT, COLT), though we value the strength of your best work over volume.
 - Background in algorithmic information theory, computability theory, learning theory, or related theoretical computer science.
 - Experience fine-tuning, evaluating, or red-teaming LLM-based and/or RL agents.
-- Prior engagement with the UAI/AIXI community or related fields — including members of our [online reading groups](/research/learn/).
+- Prior engagement with the UAI/AIXI community or related fields — including members of our [online reading groups](/team/community/#join-our-community).
 
 ## Responsibilities
 

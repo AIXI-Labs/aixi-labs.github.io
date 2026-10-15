@@ -1,16 +1,11 @@
 ---
 layout: page
 title: About Us
+breadcrumb:
+  - title: Team
+    url: /team/
 permalink: /team/
 ---
-
-## Our Values
-
-- **Rigour** — We prioritize high-quality, methodical research grounded in formal models, and embrace negative results when they identify flaws in safety proposals, whether our own or others'.
-- **Transparency** — We share our work openly where possible, including failures and dead ends.
-- **Openness** — We remain open to exploring new ideas and abandoning or revisiting old ones.
-- **Collaboration** — We believe progress requires coordination across the field.
-- **Impact** — We focus on research that meaningfully reduces risk. To develop results that are robust instead of superficial, we value foundational work whose payoffs may not be immediate.
 
 ## Core Team
 

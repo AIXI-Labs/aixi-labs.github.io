@@ -1,5 +1,6 @@
 # Top-level navigation with dropdowns
-# Research and Team are dropdowns; Community is a direct link
+# Header order: Research ▾, Learning & Community, Team ▾, Contact Us
+# Research and Team are dropdowns; Learning & Community and Contact Us are direct links
 # Blog is archived: blog.md and _posts/ remain but are not linked from the nav
 
 research:
@@ -7,8 +8,6 @@ research:
     url: /research/
   - title: Publications
     url: /research/publications/
-  - title: Learn
-    url: /research/learn/
 
 team:
   - title: About Us
@@ -18,4 +17,7 @@ team:
 
 community:
   url: /team/community/
+
+contact:
+  url: /contact/
 

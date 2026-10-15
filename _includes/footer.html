@@ -3,7 +3,7 @@
 
   <div class="wrapper">
     <h2 class="footer-heading p-name">{{ site.title | escape }}</h2>
-    <p class="footer-description">{{ site.description | escape }}</p>
+    <p class="footer-description">{{ site.footer_description | default: site.description | escape }}</p>
     <ul class="footer-contact">
       {%- if site.github_username -%}
         <li><a href="https://github.com/{{ site.github_username | cgi_escape | escape }}">github.com/{{ site.github_username | escape }}</a></li>

@@ -7,8 +7,9 @@ layout: default
     {%- comment -%}
       Pages may set `breadcrumb` (a list of {title, url} parents) in front matter
       to show "Parent › Title" as the heading instead of the bare title,
-      `small_heading: true` for a smaller heading (long trails), and `date` to
-      show a publication date under it.
+      `small_heading: true` for a smaller heading (long trails), and
+      `show_date: true` to show `date` under it (opt-in, because collection
+      documents such as jobs always carry a date).
     {%- endcomment -%}
     <h1 class="post-title{% if page.small_heading %} post-title-small{% endif %}">
       {%- for crumb in page.breadcrumb -%}
@@ -17,7 +18,7 @@ layout: default
       {%- endfor -%}
       {{ page.title | escape }}
     </h1>
-    {%- if page.date -%}
+    {%- if page.show_date and page.date -%}
       <p class="post-meta">
         <time datetime="{{ page.date | date_to_xmlschema }}">
           {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}

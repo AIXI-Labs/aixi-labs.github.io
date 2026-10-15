@@ -1,0 +1,23 @@
+{%- comment -%}
+  Two side-by-side calls to action split by a vertical rule: a short lead-in
+  line above each button. The left button is filled, the right is outlined.
+  The right half is optional; leave out the right_* params for a single button.
+  Usage:
+    {% include link-buttons.html
+       left_text="For technical details, see our organization's"
+       left_label="Research output" left_url="/research/publications/"
+       right_text="For broader educational resources, see"
+       right_label="Learning & Community" right_url="/team/community/" %}
+{%- endcomment -%}
+<div class="link-buttons">
+  <div class="link-buttons-item">
+    <p>{{ include.left_text }}</p>
+    <a class="link-button link-button-primary" href="{{ include.left_url | relative_url }}">{{ include.left_label | escape }}</a>
+  </div>
+  {%- if include.right_url %}
+  <div class="link-buttons-item">
+    <p>{{ include.right_text }}</p>
+    <a class="link-button" href="{{ include.right_url | relative_url }}">{{ include.right_label | escape }}</a>
+  </div>
+  {%- endif %}
+</div>
