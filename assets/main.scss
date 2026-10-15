@@ -199,6 +199,52 @@ $content-width:    720px;
   }
 }
 
+// Breadcrumb heading on pages ("Research › Publications"); parent stays heading-coloured
+.page-content .post-title .breadcrumb-link {
+  color: $grey-color;
+
+  &:hover {
+    color: $text-color;
+    text-decoration: none;
+  }
+}
+
+.breadcrumb-sep {
+  color: $grey-color;
+}
+
+.post-title-small {
+  font-size: 1.75rem;
+  letter-spacing: -0.5px;
+  line-height: 1.25;
+}
+
+// Teaser entries on Research › Publications: linked title | date, then a one-line excerpt
+.pub-entry {
+  margin-bottom: 1.5rem;
+
+  .pub-entry-header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    font-size: 1.125rem;
+  }
+
+  .pub-entry-date {
+    margin-left: 0.75rem;
+    padding-left: 0.75rem;
+    border-left: 1px solid $text-color;
+    color: $grey-color;
+    font-size: 0.9375rem;
+  }
+
+  .pub-entry-excerpt {
+    margin: 0;
+    font-size: 0.875rem;
+  }
+}
+
 // Refined link styling
 .page-content a {
   color: $brand-color;
@@ -272,6 +318,9 @@ $content-width:    720px;
 
 // Footer: title, description, contact links stacked
 .site-footer {
+  border-top: 1px dotted #2b2f33; // visible separator between page and footer
+  background: #fff;
+
   .footer-heading {
     color: #000;
     font-weight: 600;

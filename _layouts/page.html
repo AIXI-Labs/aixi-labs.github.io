@@ -1,0 +1,34 @@
+---
+layout: default
+---
+<article class="post">
+
+  <header class="post-header">
+    {%- comment -%}
+      Pages may set `breadcrumb` (a list of {title, url} parents) in front matter
+      to show "Parent › Title" as the heading instead of the bare title,
+      `small_heading: true` for a smaller heading (long trails), and `date` to
+      show a publication date under it.
+    {%- endcomment -%}
+    <h1 class="post-title{% if page.small_heading %} post-title-small{% endif %}">
+      {%- for crumb in page.breadcrumb -%}
+        <a class="breadcrumb-link" href="{{ crumb.url | relative_url }}">{{ crumb.title | escape }}</a>
+        <span class="breadcrumb-sep" aria-hidden="true"> › </span>
+      {%- endfor -%}
+      {{ page.title | escape }}
+    </h1>
+    {%- if page.date -%}
+      <p class="post-meta">
+        <time datetime="{{ page.date | date_to_xmlschema }}">
+          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+          {{ page.date | date: date_format }}
+        </time>
+      </p>
+    {%- endif -%}
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+</article>

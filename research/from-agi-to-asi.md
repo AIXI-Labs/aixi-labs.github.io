@@ -1,8 +1,18 @@
 ---
-layout: post
+# Formerly a blog post; now a standalone page linked from Research › Publications.
+# Kept at the post's original URL so existing links still work.
+layout: page
 title: "From AGI to ASI"
+small_heading: true
+breadcrumb:
+  - title: Research
+    url: /research/
+  - title: Publications
+    url: /research/publications/
+  - title: Other
+    url: /research/publications/#other
 date: 2026-06-14 10:42:00 -0700
-categories: research
+permalink: /research/2026/06/14/from-agi-to-asi.html
 ---
 
 AIXI Labs researchers contributed to a [Google DeepMind report](https://arxiv.org/abs/2606.12683) on the future of machine intelligence, anchored on three informal levels:

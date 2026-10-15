@@ -1,5 +1,6 @@
 # Top-level navigation with dropdowns
-# Research and Team are dropdowns; Blog is a direct link
+# Research and Team are dropdowns; Community is a direct link
+# Blog is archived: blog.md and _posts/ remain but are not linked from the nav
 
 research:
   - title: Overview
@@ -12,10 +13,9 @@ research:
 team:
   - title: About Us
     url: /team/
-  - title: Community
-    url: /team/community/
   - title: Opportunities
     url: /team/opportunities/
 
-blog:
-  url: /blog/
+community:
+  url: /team/community/
+

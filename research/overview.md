@@ -1,6 +1,9 @@
 ---
 layout: page
 title: Overview
+breadcrumb:
+  - title: Research
+    url: /research/
 permalink: /research/
 ---
 
