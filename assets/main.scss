@@ -103,6 +103,113 @@ $content-width:    720px;
   overflow-x: clip; // 100vw hero would otherwise add a scrollbar-width overflow
 }
 
+// Home-page style buttons (filled primary + white outlined), usable on any page:
+// <div class="hero-actions"><a class="hero-button hero-button-primary">…</a><a class="hero-button">…</a></div>
+.post-content .hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 1rem;
+}
+
+// .page-content prefix beats the site-wide link styles
+.page-content .hero-button {
+  display: inline-block;
+  padding: 11px 18px;
+  border: 1px solid #2b2f33;
+  font-family: "IBM Plex Sans", $base-font-family;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.4;
+  background: #fff;
+  color: #15181b;
+  text-decoration: none;
+
+  &:hover {
+    background: #eef0f2;
+    text-decoration: none;
+  }
+}
+
+.page-content .hero-button-primary {
+  border-color: #15181b;
+  background: #15181b;
+  color: #fff;
+
+  &:hover {
+    background: #2b2f33;
+  }
+}
+
+// Faded decorative equations (home hero and the page banner on every other page).
+// The container fills its positioned parent; each page type sets the image positions.
+.bg-equations {
+  position: absolute; // out of the parent's flow, so it adds no gap
+  inset: 0;
+
+  img {
+    position: absolute;
+    height: auto;
+    opacity: 0.2;
+    pointer-events: none;
+    user-select: none;
+  }
+
+  // Side margins are too narrow below ~1180px
+  @media screen and (max-width: 1179px) {
+    .eq-wide-only {
+      display: none;
+    }
+  }
+
+  // No free space beside the content on phones
+  @include media-query($on-palm) {
+    display: none;
+  }
+}
+
+// Every other page: the title sits on a lighter version of the home gradient,
+// full width and flush under the site header, with equations in the side margins
+.page-banner {
+  width: 100vw;
+  margin: (-$spacing-unit) 0 $spacing-unit calc(50% - 50vw);
+  background: linear-gradient(180deg, #c6c9ca 0%, #dcdfe0 50%, $background-color 100%);
+
+  .page-banner-inner {
+    position: relative;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+  }
+
+  .post-header {
+    position: relative; // above the equations
+    margin-bottom: 0;
+  }
+
+  .bg-equations {
+    .eq-xi {
+      top: 26px;
+      left: -200px;
+    }
+
+    .eq-do {
+      top: 108px;
+      left: -235px;
+      width: 220px;
+    }
+
+    .eq-bayes {
+      top: 20px;
+      right: -205px;
+    }
+
+    .eq-kolmogorov {
+      top: 100px;
+      right: -190px;
+    }
+  }
+}
+
 .hero {
   // Break out of the 720px content wrapper and sit flush under the header
   width: 100vw;
@@ -118,6 +225,55 @@ $content-width:    720px;
     display: flex;
     flex-direction: column;
     gap: 32px;
+  }
+
+  // Faded equation in the empty space right of the title; purely decorative
+  .hero-inner {
+    position: relative;
+  }
+
+  // Positions are relative to .hero-inner's padding box; each sits clear of the text
+  // and none reaches below the buttons. .eq-wide-only ones live in the side margins.
+  .bg-equations {
+    .eq-prior {   // right of the title
+      top: 64px;
+      right: $spacing-unit;
+      width: 365px;
+      max-width: 50%;
+    }
+
+    .eq-bayes {   // right margin, top, mirroring ξ(x) on the left
+      top: 92px;
+      right: -205px;
+    }
+
+    .eq-do {      // left margin, beside the paragraph (Pearl's do-calculus)
+      top: 330px;
+      left: -235px;
+      width: 220px;
+    }
+
+    .eq-xi {      // left margin, beside the title
+      top: 96px;
+      left: -200px;
+    }
+
+    .eq-kolmogorov { // right margin, beside the paragraph
+      top: 280px;
+      right: -190px;
+    }
+
+    @include media-query($on-laptop) {
+      .eq-prior {
+        right: $spacing-unit / 2;
+      }
+    }
+  }
+
+  .hero-heading,
+  .hero-formula,
+  .hero-body {
+    position: relative; // stay above the background equation
   }
 
   .hero-formula {
@@ -157,34 +313,6 @@ $content-width:    720px;
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-  }
-
-  // .page-content prefix beats the site-wide link styles
-  .page-content & .hero-button {
-    display: inline-block;
-    padding: 11px 18px;
-    border: 1px solid #2b2f33;
-    font-size: 13px;
-    font-weight: 600;
-    line-height: 1.4;
-    background: #fff;
-    color: #15181b;
-    text-decoration: none;
-
-    &:hover {
-      background: #eef0f2;
-      text-decoration: none;
-    }
-  }
-
-  .page-content & .hero-button-primary {
-    border-color: #15181b;
-    background: #15181b;
-    color: #fff;
-
-    &:hover {
-      background: #2b2f33;
-    }
   }
 
   @include media-query($on-palm) {
@@ -414,11 +542,55 @@ $content-width:    720px;
   }
 }
 
+// Team › About Us: Core Team photo grid (rounded square photo, name, role)
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 2rem 1.5rem;
+  margin: 1.5rem 0 2rem;
+  padding: 0;
+  list-style: none;
+
+  li {
+    margin: 0;
+  }
+
+  .team-photo {
+    display: block;
+    width: 130px;
+    height: 130px;
+    margin-bottom: 1rem;
+    border-radius: 14px;
+    object-fit: cover;
+    object-position: center top; // non-square photos keep the face in frame
+  }
+
+  // Names use the site's normal link style; bold like the other people lists on the page
+  .team-name {
+    display: block;
+    font-weight: 600;
+  }
+
+  .team-role {
+    display: block;
+    margin-top: 0.125rem;
+  }
+
+  @include media-query($on-palm) {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
 // Paired call-to-action buttons split by a vertical rule (_includes/link-buttons.html)
 .link-buttons {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
   margin: 2rem 0 1rem;
+
+  // A lone button's lead-in text gets the full width
+  &.link-buttons-single {
+    grid-template-columns: 1fr;
+  }
 
   .link-buttons-item {
     padding-right: 2rem;

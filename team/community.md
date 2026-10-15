@@ -21,6 +21,8 @@ We regularly hold meetings online to talk about Solomonoff induction, AIXI, and 
   </section>
 </div>
 
+AIXI Labs has also helped the [Francis Bacon Debate Society](https://www.francisbacondebate.org/) run debates about AI safety, through our relationship with advisor [Jan Farrell](https://www.linkedin.com/in/farrelljan/), who chairs the society.
+
 ## An Introduction to AIXI
 
 <div class="portrait-row">

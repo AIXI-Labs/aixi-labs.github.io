@@ -16,6 +16,10 @@ Please allow a few days for us to respond. For time-sensitive matters, please in
 
 Follow us on [GitHub](https://github.com/{{ site.github_username }}) for open-source work.
 
+## Events
+
+We recently co-hosted a [research symposium](https://sites.google.com/site/boumedienehamzi/third-symposium-on-machine-learning-and-algorithmic-information-theory), and frequently present at conferences.
+
 ## Areas of Contact
 
 - **Research Collaboration** — We are interested in collaborations with academic and industry researchers working on AI safety and related topics. We can also give invited talks.
@@ -30,10 +34,11 @@ Follow us on [GitHub](https://github.com/{{ site.github_username }}) for open-so
 
 As a non-profit research organization, we rely on philanthropic support to fund our research and operations. AIXI Labs is a fiscally sponsored project of [Principles of Intelligence](https://princint.ai/), a 501(c)(3) nonprofit corporation (EIN 33-4129337), so gifts are made to Principles of Intelligence on our behalf and are tax-deductible in the United States to the extent permitted by law.
 
-If you are considering support, please see [Research Overview](/research/) and [Publications](/research/publications/) for our public-facing overview and contributions so far.
-
 If you are interested in supporting us financially, please email us at [{{ site.email }}](mailto:{{ site.email }}).
 
-## Events
+If you are considering support, please see our public-facing overview and contributions so far:
 
-We recently co-hosted a [research symposium](https://sites.google.com/site/boumedienehamzi/third-symposium-on-machine-learning-and-algorithmic-information-theory), and frequently present at conferences.
+<div class="hero-actions">
+  <a class="hero-button hero-button-primary" href="{{ '/research/' | relative_url }}">Research Overview</a>
+  <a class="hero-button" href="{{ '/research/publications/' | relative_url }}">Research Papers</a>
+</div>

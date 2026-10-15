@@ -35,4 +35,8 @@ We are building a team of exceptional researchers and staff. Click on the toggle
 
 **[Principles of Intelligence Fellowship](https://princint.ai/programs/fellowship/)** - We collaborate with this program to mentor interdisciplinary researchers transitioning into AI safety.
 
-If your organization is interested in a research partnership, please [reach out](/contact/).
+<hr class="section-sep" />
+
+{% include link-buttons.html
+   left_text="If your organization is interested in a research partnership, please"
+   left_label="Contact Us" left_url="/contact/" %}
