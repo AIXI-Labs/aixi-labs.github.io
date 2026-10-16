@@ -38,7 +38,7 @@ Our research outputs include peer-reviewed papers, technical reports, and other 
 <hr class="section-sep" />
 
 {% include link-buttons.html
-   left_text="For broader educational resources, see"
+   left_text="For broader educational resources, see:"
    left_label="Learning & Community" left_url="/team/community/"
-   right_text="For collaboration inquiries, please"
-   right_label="Contact us" right_url="/contact/" %}
+   right_text="For collaboration inquiries:"
+   right_label="Contact Us" right_url="/contact/" %}

@@ -6,6 +6,18 @@ permalink: /contact/
 
 We welcome inquiries from researchers, potential collaborators, supporters, and anyone interested in our work.
 
+Follow us on [GitHub](https://github.com/{{ site.github_username }}) for open-source work.
+
+## Areas of Contact
+
+- **Research Collaboration** — We are interested in collaborations with academic and industry researchers working on AI safety and related topics. We can also give invited talks.
+
+- **Media & Press** — For press inquiries, please use the email below and include "Press" in the subject line.
+
+- **Partnerships** — Organizations interested in partnering with us can reach out to discuss opportunities.
+
+- **Support & Donations** — See [Support Our Work](#support-our-work) below for ways of supporting us.
+
 ## General Inquiries
 
 **Email:** [{{ site.email }}](mailto:{{ site.email }})
@@ -14,21 +26,9 @@ Please allow a few days for us to respond. For time-sensitive matters, please in
 
 <!-- - Subscribe to our [RSS feed](/feed.xml) for research updates and announcements -->
 
-Follow us on [GitHub](https://github.com/{{ site.github_username }}) for open-source work.
-
 ## Events
 
 We recently co-hosted a [research symposium](https://sites.google.com/site/boumedienehamzi/third-symposium-on-machine-learning-and-algorithmic-information-theory), and frequently present at conferences.
-
-## Areas of Contact
-
-- **Research Collaboration** — We are interested in collaborations with academic and industry researchers working on AI safety and related topics. We can also give invited talks.
-
-- **Media & Press** — For press inquiries, please use the email above and include "Press" in the subject line.
-
-- **Partnerships** — Organizations interested in partnering with us can reach out to discuss opportunities.
-
-- **Support & Donations** — See [Support Our Work](#support-our-work) below for ways to support our work.
 
 ## Support Our Work
 
@@ -39,6 +39,6 @@ If you are interested in supporting us financially, please email us at [{{ site.
 If you are considering support, please see our public-facing overview and contributions so far:
 
 <div class="hero-actions">
-  <a class="hero-button hero-button-primary" href="{{ '/research/' | relative_url }}">Research Overview</a>
-  <a class="hero-button" href="{{ '/research/publications/' | relative_url }}">Research Papers</a>
+  <a class="hero-button hero-button-primary" href="{{ '/research/' | relative_url }}">Overview</a>
+  <a class="hero-button" href="{{ '/research/publications/' | relative_url }}">Publications</a>
 </div>

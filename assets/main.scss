@@ -141,6 +141,11 @@ $content-width:    720px;
   }
 }
 
+@keyframes bg-equation-fade-in {
+  from { opacity: 0; }
+  to   { opacity: 0.2; }
+}
+
 // Faded decorative equations (home hero and the page banner on every other page).
 // The container fills its positioned parent; each page type sets the image positions.
 .bg-equations {
@@ -153,10 +158,21 @@ $content-width:    720px;
     opacity: 0.2;
     pointer-events: none;
     user-select: none;
+    // Fade in on page load, lightly staggered; every equation is in by 1s
+    animation: bg-equation-fade-in 0.8s ease-out both;
+
+    &:nth-child(2) { animation-delay: 0.05s; }
+    &:nth-child(3) { animation-delay: 0.1s; }
+    &:nth-child(4) { animation-delay: 0.15s; }
+    &:nth-child(5) { animation-delay: 0.2s; }
+
+    @media (prefers-reduced-motion: reduce) {
+      animation: none;
+    }
   }
 
-  // Side margins are too narrow below ~1180px
-  @media screen and (max-width: 1179px) {
+  // Side margins are too narrow below ~1280px
+  @media screen and (max-width: 1279px) {
     .eq-wide-only {
       display: none;
     }
@@ -189,18 +205,18 @@ $content-width:    720px;
   .bg-equations {
     .eq-xi {
       top: 26px;
-      left: -200px;
+      left: -162px; // inner edge stays just outside the title column
     }
 
-    .eq-do {
+    .eq-do {      // near the bottom of the band, below ξ(x)
       top: 108px;
-      left: -235px;
+      left: -275px;
       width: 220px;
     }
 
-    .eq-bayes {
-      top: 20px;
-      right: -205px;
+    .eq-bayes {   // staggered: lower than ξ(x), further out than K_U(x)
+      top: 44px;
+      right: -96px;
     }
 
     .eq-kolmogorov {
@@ -242,14 +258,14 @@ $content-width:    720px;
       max-width: 50%;
     }
 
-    .eq-bayes {   // right margin, top, mirroring ξ(x) on the left
-      top: 92px;
-      right: -205px;
+    .eq-bayes {   // right margin, staggered: lower than ξ(x), further out than K_U(x)
+      top: 140px;
+      right: -250px;
     }
 
-    .eq-do {      // left margin, beside the paragraph (Pearl's do-calculus)
-      top: 330px;
-      left: -235px;
+    .eq-do {      // left margin, staggered above K_U(x) on the right (Pearl's do-calculus)
+      top: 236px;
+      left: -275px;
       width: 220px;
     }
 
@@ -733,13 +749,15 @@ $content-width:    720px;
   }
 }
 
-// Research › Overview: Venn diagram under "Why this approach?"
+// Research › Overview: Venn diagram under "Why this approach?". Up to 840px wide,
+// centred on the text column and allowed to extend past it on wide screens.
 .approach-diagram {
   display: block;
-  width: 100%;
-  max-width: 420px;
+  width: min(840px, calc(100vw - 2 * #{$spacing-unit}));
+  max-width: none;
   height: auto;
-  margin: 0 auto 1.5rem;
+  margin: 0 0 1.5rem 50%;
+  transform: translateX(-50%);
 }
 
 // Refined link styling

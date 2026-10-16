@@ -4,7 +4,9 @@ title: Learning & Community
 permalink: /team/community/
 ---
 
-Resources for learning about AIXI, Solomonoff induction, and related topics, and ways to join the community around them.
+AIXI Labs helps run community events and meetings about information theory and universal artificial intelligence (UAI).
+
+Below are some examples of such communities, along with educational resources about AIXI, Solomonoff induction, and related topics.
 
 ## Join our Community
 
@@ -21,7 +23,7 @@ We regularly hold meetings online to talk about Solomonoff induction, AIXI, and 
   </section>
 </div>
 
-AIXI Labs has also helped the [Francis Bacon Debate Society](https://www.francisbacondebate.org/) run debates about AI safety, through our relationship with advisor [Jan Farrell](https://www.linkedin.com/in/farrelljan/), who chairs the society.
+Through our relationship with advisor [Jan Farrell](https://www.linkedin.com/in/farrelljan/), who chairs the [Francis Bacon Debate Society](https://www.francisbacondebate.org/), we have also contributed to debates about AI safety.
 
 ## An Introduction to AIXI
 
@@ -40,7 +42,7 @@ AIXI Labs has also helped the [Francis Bacon Debate Society](https://www.francis
 <div class="toggle-section-body" markdown="1">
 
 - **[Introduction to Universal Artificial Intelligence](https://www.hutter1.net/ai/uaibook2.htm)** - Marcus Hutter's comprehensive introduction to Solomonoff induction, AIXI, and related theory.
-- **[An Introduction to Kolmogorov Complexity and Its Applications](https://link.springer.com/book/10.1007/978-3-030-11298-1)** - The canonical reference on algorithmic information theory, currently studied in our [reading group](https://uaiasi.com/2026/04/30/reading-group-kolmogorov-complexity-and-its-applications/).
+- **[An Introduction to Kolmogorov Complexity and Its Applications](https://link.springer.com/book/10.1007/978-3-030-11298-1)** - The canonical reference on algorithmic information theory.
 - **[InfoTheory](https://github.com/turtle261/infotheory)** - An algorithmic information theory library implementing approximations, estimators, and a comprehensive MC-AIXI agent platform (ROSA, CTW, RWKV backends).
 
 </div>
@@ -52,18 +54,18 @@ AIXI Labs has also helped the [Francis Bacon Debate Society](https://www.francis
 
 Research field abbreviations (from [Marcus's list](http://www.hutter1.net/ait.htm#homepages)):
 
-Artificial Intelligence (AI),
-Algorithmic Information Theory (AIT),
-Algorithmic Probability (AP),
-Algorithmic Randomness (AR),
-Computational Complexity (CC),
-Kolmogorov Complexity (KC),
-Minimum Description Length (MDL),
-Minimum Message Length (MML),
-Singular Learning Theory (SiLT),
-Statistical Learning Theory (StaLT),
-Statistical Mechanics (SM),
-Universal Levin Search (US).
+- **AI** = Artificial Intelligence
+- **AIT** = Algorithmic Information Theory
+- **AP** = Algorithmic Probability
+- **AR** = Algorithmic Randomness
+- **CC** = Computational Complexity
+- **KC** = Kolmogorov Complexity
+- **MDL** = Minimum Description Length
+- **MML** = Minimum Message Length
+- **SiLT** = Singular Learning Theory
+- **StaLT** = Statistical Learning Theory
+- **SM** = Statistical Mechanics
+- **US** = Universal Levin Search
 
 </div>
 </details>
@@ -110,5 +112,5 @@ Universal Levin Search (US).
 <hr class="section-sep" />
 
 {% include link-buttons.html
-   left_text="To get in touch with us directly, see"
+   left_text="To get in touch with us directly:"
    left_label="Contact Us" left_url="/contact/" %}

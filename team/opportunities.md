@@ -38,5 +38,5 @@ We are building a team of exceptional researchers and staff. Click on the toggle
 <hr class="section-sep" />
 
 {% include link-buttons.html
-   left_text="If your organization is interested in a research partnership, please"
+   left_text="If your organization is interested in a research partnership:"
    left_label="Contact Us" left_url="/contact/" %}
