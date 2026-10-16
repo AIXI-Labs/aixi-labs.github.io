@@ -753,8 +753,8 @@ $content-width:    720px;
 // centred on the text column and allowed to extend past it on wide screens.
 .approach-diagram {
   display: block;
-  width: min(840px, calc(100vw - 2 * #{$spacing-unit}));
-  max-width: none;
+  width: 840px;
+  max-width: calc(100vw - #{2 * $spacing-unit}); // plain CSS, no min(): older Sass builds reject it
   height: auto;
   margin: 0 0 1.5rem 50%;
   transform: translateX(-50%);
