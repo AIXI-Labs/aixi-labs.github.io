@@ -1,0 +1,47 @@
+---
+layout: default
+---
+<article class="post">
+
+  <!-- Full-width gradient band behind the title, with faded equations in the side margins -->
+  <div class="page-banner">
+  <div class="wrapper page-banner-inner">
+  <div class="bg-equations" aria-hidden="true">
+    <img class="eq-xi eq-wide-only" src="{{ '/assets/img/eq_universal_prior.png' | relative_url }}" alt="" />
+    <img class="eq-do eq-wide-only" src="{{ '/assets/img/eq_do_calculus.png' | relative_url }}" alt="" />
+    <img class="eq-bayes eq-wide-only" src="{{ '/assets/img/eq_bayes_rule.png' | relative_url }}" alt="" />
+    <img class="eq-kolmogorov eq-wide-only" src="{{ '/assets/img/eq_kolmogorov_complexity.png' | relative_url }}" alt="" />
+  </div>
+
+  <header class="post-header">
+    {%- comment -%}
+      Pages may set `breadcrumb` (a list of {title, url} parents) in front matter
+      to show "Parent › Title" as the heading instead of the bare title,
+      `small_heading: true` for a smaller heading (long trails), and
+      `show_date: true` to show `date` under it (opt-in, because collection
+      documents such as jobs always carry a date).
+    {%- endcomment -%}
+    <h1 class="post-title{% if page.small_heading %} post-title-small{% endif %}">
+      {%- for crumb in page.breadcrumb -%}
+        <a class="breadcrumb-link" href="{{ crumb.url | relative_url }}">{{ crumb.title | escape }}</a>
+        <span class="breadcrumb-sep" aria-hidden="true"> › </span>
+      {%- endfor -%}
+      {{ page.title | escape }}
+    </h1>
+    {%- if page.show_date and page.date -%}
+      <p class="post-meta">
+        <time datetime="{{ page.date | date_to_xmlschema }}">
+          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+          {{ page.date | date: date_format }}
+        </time>
+      </p>
+    {%- endif -%}
+  </header>
+  </div>
+  </div>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+</article>

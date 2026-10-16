@@ -1,59 +1,78 @@
 ---
 layout: page
-title: Community
+title: Learning & Community
 permalink: /team/community/
 ---
 
-We welcome inquiries from researchers, potential collaborators, supporters, and anyone interested in our work.
+AIXI Labs helps run community events and meetings about information theory and universal artificial intelligence (UAI).
 
-## Join Our Reading Group
+Below are some examples of such communities, along with educational resources about AIXI, Solomonoff induction, and related topics.
 
-We hold regular online meetings on Solomonoff induction, AIXI, and related topics. Open to the public.
+## Join our Community
 
-**[uaiasi.com](https://uaiasi.com/)** — Join our community hub for Universal Algorithmic Intelligence. See the calendar for meeting times and links.
+We regularly hold meetings online to talk about Solomonoff induction, AIXI, and related topics, all open to the public.
 
-**[AIXI Discord](https://discord.gg/Ex2UUK87jg)** - A more interactive way to join our community and discuss research interests.
+<div class="focus-cards focus-cards-2">
+  <section class="focus-card">
+    <h3><a href="https://uaiasi.com/">uaiasi.com</a></h3>
+    <p>Join our community hub for Universal Algorithmic Intelligence. See the calendar for meeting times and links.</p>
+  </section>
+  <section class="focus-card">
+    <h3><a href="https://discord.gg/Ex2UUK87jg">AIXI Discord</a></h3>
+    <p>A more interactive way to join our community and discuss research interests.</p>
+  </section>
+</div>
 
-## General Inquiries
+Through our relationship with advisor [Jan Farrell](https://www.linkedin.com/in/farrelljan/), who chairs the [Francis Bacon Debate Society](https://www.francisbacondebate.org/), we have also contributed to debates about AI safety.
 
-**Email:** [{{ site.email }}](mailto:{{ site.email }})
+## An Introduction to AIXI
 
-Please allow a few days for us to respond. For time-sensitive matters, please indicate so in your subject line.
+<div class="portrait-row">
+  <a href="https://www.mdpi.com/1099-4300/13/6/1076"><img src="{{ '/assets/img/raysolomonoff.png' | relative_url }}" alt="Ray Solomonoff" class="founder-portrait" /></a>
+  <p><strong>Ray Solomonoff</strong> (1926–2009) founded algorithmic probability—the theory that underlies Solomonoff induction and, ultimately, AIXI. His universal prior M(x) formalizes Occam's razor: simpler hypotheses receive higher prior probability.</p>
+</div>
 
-<!-- - Subscribe to our [RSS feed](/feed.xml) for research updates and announcements -->
+<div class="portrait-row">
+  <a href="https://www.hutter1.net/"><img src="{{ '/assets/img/marcushutter.jpg' | relative_url }}" alt="Marcus Hutter" class="founder-portrait" /></a>
+  <p><strong>Marcus Hutter</strong> (1967–present) developed the mathematical model of artificial general intelligence (AGI) named AIXI. He works as a senior researcher at DeepMind, and part-time Research Director at AIXI Labs.</p>
+</div>
 
-Follow us on [GitHub](https://github.com/{{ site.github_username }}) for open-source work.
+<details class="toggle-section" id="key-resources">
+<summary><h3 class="toggle-section-title">Key Resources</h3></summary>
+<div class="toggle-section-body" markdown="1">
 
-## Areas of Contact
+- **[Introduction to Universal Artificial Intelligence](https://www.hutter1.net/ai/uaibook2.htm)** - Marcus Hutter's comprehensive introduction to Solomonoff induction, AIXI, and related theory.
+- **[An Introduction to Kolmogorov Complexity and Its Applications](https://link.springer.com/book/10.1007/978-3-030-11298-1)** - The canonical reference on algorithmic information theory.
+- **[InfoTheory](https://github.com/turtle261/infotheory)** - An algorithmic information theory library implementing approximations, estimators, and a comprehensive MC-AIXI agent platform (ROSA, CTW, RWKV backends).
 
-- **Research Collaboration** — We are interested in collaborations with academic and industry researchers working on AI safety and related topics. We can also give invited talks.
+</div>
+</details>
 
-- **Media & Press** — For press inquiries, please use the email above and include "Press" in the subject line.
-
-- **Partnerships** — Organizations interested in partnering with us can reach out to discuss opportunities.
-
-- **Support & Donations** — See our [Opportunities](/team/opportunities/) page for ways to support our work.
-
-## Events
-
-We recently co-hosted a [research symposium](https://sites.google.com/site/boumedienehamzi/third-symposium-on-machine-learning-and-algorithmic-information-theory), and frequently present at conferences.
-
-## People in Algorithmic Information Theory
+<details class="toggle-section" id="key-abbreviations">
+<summary><h3 class="toggle-section-title">Key Abbreviations</h3></summary>
+<div class="toggle-section-body" markdown="1">
 
 Research field abbreviations (from [Marcus's list](http://www.hutter1.net/ait.htm#homepages)):
 
-Artificial Intelligence (AI),
-Algorithmic Information Theory (AIT),
-Algorithmic Probability (AP),
-Algorithmic Randomness (AR),
-Computational Complexity (CC),
-Kolmogorov Complexity (KC),
-Minimum Description Length (MDL),
-Minimum Message Length (MML),
-Singular Learning Theory (SiLT),
-Statistical Learning Theory (StaLT),
-Statistical Mechanics (SM),
-Universal Levin Search (US).
+- **AI** = Artificial Intelligence
+- **AIT** = Algorithmic Information Theory
+- **AP** = Algorithmic Probability
+- **AR** = Algorithmic Randomness
+- **CC** = Computational Complexity
+- **KC** = Kolmogorov Complexity
+- **MDL** = Minimum Description Length
+- **MML** = Minimum Message Length
+- **SiLT** = Singular Learning Theory
+- **StaLT** = Statistical Learning Theory
+- **SM** = Statistical Mechanics
+- **US** = Universal Levin Search
+
+</div>
+</details>
+
+<details class="toggle-section" id="people-in-algorithmic-information-theory">
+<summary><h3 class="toggle-section-title">People in Algorithmic Information Theory</h3></summary>
+<div class="toggle-section-body" markdown="1">
 
 - [Laurent Bienvenu](https://www.labri.fr/perso/lbienvenu/) — CNRS / LaBRI, Bordeaux (AR, KC)
 - [Cristian Calude](https://calude.net/cristianscalude/about/) — University of Auckland (AR, KC)
@@ -89,6 +108,11 @@ Universal Levin Search (US).
 - [Francesca Zaffora Blando](https://francescazafforablando.com/) — Carnegie Mellon University (AR, philosophy)
 - [Hector Zenil](https://www.hectorzenil.com/) — King's College London (KC, AIT, AP, causality)
 
-## Location
+</div>
+</details>
 
-*Address and location details to be added once we have them.*
+<hr class="section-sep" />
+
+{% include link-buttons.html
+   left_text="To get in touch with us directly:"
+   left_label="Contact Us" left_url="/contact/" %}

@@ -23,6 +23,8 @@ job:
   apply_url: "https://docs.google.com/forms/d/e/1FAIpQLSdpKSZKcMUZCkMaBncmbDSSdVcHKodDmdALUTOOheGF_NMHuQ/viewform"
 ---
 
+## Context
+
 {% include about-aixi-labs.md %}
 
 You'd be joining a three-person core team — {% include team-roster.md %} — at an early stage. We are not an established engineering org, so you'd help build our empirical research capability essentially from scratch.

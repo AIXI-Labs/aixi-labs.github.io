@@ -3,7 +3,33 @@ layout: default
 ---
 
 <section class="hero">
-  <img src="{{ '/assets/img/aixi1linel.gif' | relative_url }}" alt="AIXI formula" class="hero-formula" />
+  <!-- Minima's .wrapper keeps the hero on the same edges as the header and footer -->
+  <div class="wrapper hero-inner">
+    <!-- Decorative background equations, faded into the hero's empty space -->
+    <div class="bg-equations" aria-hidden="true">
+      <img class="eq-prior" src="{{ '/assets/img/solomonoff_prior.png' | relative_url }}" alt="" />
+      <img class="eq-bayes eq-wide-only" src="{{ '/assets/img/eq_bayes_rule.png' | relative_url }}" alt="" />
+      <img class="eq-do eq-wide-only" src="{{ '/assets/img/eq_do_calculus.png' | relative_url }}" alt="" />
+      <img class="eq-xi eq-wide-only" src="{{ '/assets/img/eq_universal_prior.png' | relative_url }}" alt="" />
+      <img class="eq-kolmogorov eq-wide-only" src="{{ '/assets/img/eq_kolmogorov_complexity.png' | relative_url }}" alt="" />
+    </div>
+    <div class="hero-heading">
+      <p class="hero-eyebrow">{{ page.hero.eyebrow | escape }}</p>
+      <h1 class="hero-title">{{ site.title | escape }}</h1>
+    </div>
+    <img class="hero-formula" src="{{ '/assets/img/aixi_formula_mono.png' | relative_url }}" alt="AIXI formula" />
+    <div class="hero-body">
+      <p class="hero-text">{{ page.hero.text | escape }}</p>
+      <div class="hero-actions">
+        {%- for button in page.hero.buttons -%}
+          <a class="hero-button{% if forloop.first %} hero-button-primary{% endif %}" href="{{ button.url | relative_url }}">{{ button.label | escape }}</a>
+        {%- endfor -%}
+      </div>
+    </div>
+  </div>
 </section>
 
-{{ content }}
+<!-- Same content styles as other pages (heading sizes, section dividers) -->
+<div class="post-content">
+  {{ content }}
+</div>
