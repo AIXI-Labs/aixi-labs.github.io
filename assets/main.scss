@@ -16,6 +16,27 @@ $content-width:    720px;
 
 @import "minima";
 
+// Keep the site header (phone menu and desktop dropdowns) above page content.
+// Minima positions the phone menu absolutely without a z-index, so later
+// positioned elements (hero text, page title band) were drawn on top of it.
+.site-header {
+  z-index: 1000;
+}
+
+// Phone menu order: Research, Team, Learning & Community, Contact Us.
+// (The desktop bar keeps Team next to Contact Us.) Minima shows the open phone
+// menu as a block list; a column flex box looks the same but allows reordering.
+@include media-query($on-palm) {
+  .site-nav input:checked ~ .trigger {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .site-nav .nav-research { order: -2; }
+  .site-nav .nav-team     { order: -1; }
+}
+
 // Dropdown navigation styles
 .site-nav .trigger {
   display: flex;

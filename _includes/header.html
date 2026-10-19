@@ -16,7 +16,7 @@
       <div class="trigger">
         {%- assign nav = site.data.navigation -%}
         {%- if nav -%}
-          <span class="nav-dropdown">
+          <span class="nav-dropdown nav-research">
             <a class="page-link nav-dropdown-toggle" href="{{ '/research/' | relative_url }}">Research</a>
             <ul class="nav-dropdown-menu">
               {%- for item in nav.research -%}
@@ -25,7 +25,7 @@
             </ul>
           </span>
           <a class="page-link" href="{{ nav.community.url | relative_url }}">Learning &amp; Community</a>
-          <span class="nav-dropdown">
+          <span class="nav-dropdown nav-team">
             <a class="page-link nav-dropdown-toggle" href="{{ '/team/' | relative_url }}">Team</a>
             <ul class="nav-dropdown-menu">
               {%- for item in nav.team -%}
