@@ -272,13 +272,6 @@ $content-width:    720px;
   // Positions are relative to .hero-inner's padding box; each sits clear of the text
   // and none reaches below the buttons. .eq-wide-only ones live in the side margins.
   .bg-equations {
-    .eq-prior {   // right of the title
-      top: 64px;
-      right: $spacing-unit;
-      width: 365px;
-      max-width: 50%;
-    }
-
     .eq-bayes {   // right margin, staggered: lower than ξ(x), further out than K_U(x)
       top: 140px;
       right: -250px;
@@ -298,12 +291,6 @@ $content-width:    720px;
     .eq-kolmogorov { // right margin, beside the paragraph
       top: 280px;
       right: -190px;
-    }
-
-    @include media-query($on-laptop) {
-      .eq-prior {
-        right: $spacing-unit / 2;
-      }
     }
   }
 
