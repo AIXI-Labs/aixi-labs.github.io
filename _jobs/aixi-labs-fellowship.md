@@ -1,7 +1,7 @@
 ---
 layout: job
 title: "AIXI Labs Research Fellowship"
-meta-description: "AIXI Labs offers research fellowships connecting algorithmic information theory to AI safety, mentored by Cole Wyeth, Marcus Hutter, and Aram Ebtekar. Fully remote worldwide, or London, UK. £1,700–£3,300/month stipend and a compute budget."
+meta-description: "AIXI Labs offers research fellowships connecting algorithmic information theory to AI safety, mentored by Cole Wyeth, Marcus Hutter, and Aram Ebtekar. Fully remote worldwide, or Berkeley, US or London, UK. £2,000–£3,500/month stipend and a compute budget."
 
 # --- Structured job fields ---
 job:
@@ -9,12 +9,12 @@ job:
   category: "fellowship"
   employment_type: TEMPORARY
   employment_type_display: "Fellowship"
-  location_display: "Remote (worldwide), or London, UK"
+  location_display: "Remote (worldwide), or Berkeley, US or London, UK"
   location_locality: "London"
   location_country: "GB"
   remote: true
   salary_min: 2000
-  salary_max: 3300
+  salary_max: 3500
   salary_display: "£2,000 – £3,500"
   salary_currency: "GBP"
   salary_period: "month"
@@ -32,7 +32,7 @@ job:
 
 Our fellowship is a **quarterly, rolling program** for researchers who want to work on this agenda under the close mentorship of our core team — {% include team-roster.md %}.
 
-Fellows pursue a focused research project over roughly a quarter, and receive a **monthly stipend plus a compute budget** for machine-learning work. The fellowship is **fully remote** — you may work from anywhere in the world, or from our London base. Applications are reviewed on a rolling basis, and previous applicants remain eligible for later rounds. In exceptional cases, fellowships may be renewed.
+Fellows pursue a focused research project over roughly a quarter, and receive a **monthly stipend plus a compute budget** for machine-learning work. The fellowship is **fully remote** — you may work from anywhere in the world, or from our Berkeley or London bases. Applications are reviewed on a rolling basis, and previous applicants remain eligible for later rounds. In exceptional cases, fellowships may be renewed.
 
 ## Minimum qualifications
 

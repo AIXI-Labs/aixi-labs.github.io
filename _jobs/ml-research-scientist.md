@@ -1,7 +1,7 @@
 ---
 layout: job
 title: "Machine Learning Research Scientist"
-meta-description: "AIXI Labs is hiring a Machine Learning Research Scientist to connect algorithmic information theory to empirical AI safety research on LLM-based agents. London, UK. £120,000–£160,000/year."
+meta-description: "AIXI Labs is hiring a Machine Learning Research Scientist to connect algorithmic information theory to empirical AI safety research on LLM-based agents. Berkeley, US or London, UK. $150,000–$250,000/year."
 
 # --- Structured job fields ---
 job:
@@ -9,17 +9,17 @@ job:
   category: "role"
   employment_type: FULL_TIME
   employment_type_display: "Full-time"
-  location_display: "London, UK or Berkeley, US"
-  location_locality: "London"
-  location_country: "GB"
-  salary_min: 120000
-  salary_max: 160000
-  salary_display: "£120,000 – £160,000"
-  salary_currency: "GBP"
+  location_display: "Berkeley, US or London, UK"
+  location_locality: "Berkeley"
+  location_country: "US"
+  salary_min: 150000
+  salary_max: 250000
+  salary_display: "$150,000 – $250,000"
+  salary_currency: "USD"
   salary_period: "year"
   salary_unit: "YEAR"
   date_posted: 2026-07-01
-  valid_through: 2026-12-01
+  valid_through: 2027-04-29
   apply_url: "https://docs.google.com/forms/d/e/1FAIpQLSdpKSZKcMUZCkMaBncmbDSSdVcHKodDmdALUTOOheGF_NMHuQ/viewform"
 ---
 
@@ -27,7 +27,7 @@ job:
 
 {% include about-aixi-labs.md %}
 
-You'd be joining a three-person core team — {% include team-roster.md %} — at an early stage. We are not an established engineering org, so you'd help build our empirical research capability essentially from scratch.
+You'd be joining a three-person core team — {% include team-roster.md %} — at an early stage. We are not an established engineering org, so you'd help build our empirical research capability essentially from scratch. We will look into raising salaries in Berkeley soon; if you think you'd be a strong fit, please apply regardless of where your expectations fall relative to the listed range.
 
 ## Minimum qualifications
 
