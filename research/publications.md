@@ -11,8 +11,8 @@ Our research outputs include peer-reviewed papers, technical reports, and other 
 
 ## Papers
 
-- **Understanding Generalization Requires Universal Induction** — Aram Ebtekar, Marcus Hutter, Danica J. Sutherland (2026).
-  [Preprint](https://djsutherland.ml/papers/nfl-ait.pdf)
+- **Understanding Generalization Requires Universal Induction** — Aram Ebtekar, Marcus Hutter, Danica J. Sutherland (NeurIPS 2026).
+  [arXiv:2609.34458](https://arxiv.org/abs/2609.34458)
 
 - **Golden Handcuffs make safer AI agents** — Aram Ebtekar, Michael K. Cohen (2026).
   [arXiv:2604.13609](https://arxiv.org/abs/2604.13609)
